@@ -29,3 +29,63 @@ body {
     background-color: #31c467;
 }
 
+
+/* Styling för nyhetsbrev-formulär*/
+.newsform {
+    background-color: #0000003e;
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+    border: 1px solid black;
+    
+}
+
+#fname {
+    background-color: #e6e6e6;
+    width: 80%;
+    height: 35px;
+    margin-bottom: 1em;
+    border-radius: 50px;
+    border: none;
+    padding-left: 1em;
+    padding-right: 1em;
+    box-shadow: inset 2px 4px 9px #0000007a, inset -2px -4px 9px #0000003e
+}
+
+#email {
+    background-color: #e6e6e6;
+    width: 80%;
+    height: 35px;
+    margin-bottom: 1em;
+    border-radius: 50px;
+    border: none;
+    padding-left: 1em;
+    padding-right: 1em;
+    box-shadow: inset 2px 4px 9px #0000007a, inset -2px -4px 9px #0000003e
+}
+
+#submit {
+    background-color: #e6e6e6;
+    width: 84%;
+    height: 35px;
+    margin-bottom: 1em;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 2px 4px 9px #000000d4, -2px -4px 9px #ffffffb3;
+    padding-left: 1em;
+    padding-right: 1em;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 1000;
+    
+}
+#submit:hover {
+    box-shadow: none;
+    color: green;
+    }
+/* slut för Styling för nyhetsbrev-formulär*/
