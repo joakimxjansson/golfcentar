@@ -1,0 +1,31 @@
+/* textstil och navigation navbar */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* plasering och design navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: #46ec7d;
+    padding: 1rem;
+    width: 50%;
+    height:auto; 
+}
+/* text navbar */
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+/* Ändrar färg när man hoovrar över länken navbar */
+.navbar a:hover {
+    background-color: #31c467;
+}
+
