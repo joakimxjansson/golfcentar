@@ -30,11 +30,12 @@ body {
 }
 
 
-/* Styling för nyhetsbrev-formulär*/
+/* Styling för nyhetsbrev-formulär/Anton*/
 .newsform {
     background-color: #0000003e;
     max-width: 40%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-left: 1em;
@@ -47,31 +48,28 @@ body {
 
 #fname {
     background-color: #e6e6e6;
-    width: 80%;
+    width: 100%;
     height: 35px;
     margin-bottom: 1em;
     border-radius: 50px;
     border: none;
-    padding-left: 1em;
-    padding-right: 1em;
     box-shadow: inset 2px 4px 9px #0000007a, inset -2px -4px 9px #0000003e
 }
 
 #email {
     background-color: #e6e6e6;
-    width: 80%;
+    width: 100%;
     height: 35px;
     margin-bottom: 1em;
     border-radius: 50px;
     border: none;
-    padding-left: 1em;
-    padding-right: 1em;
+    
     box-shadow: inset 2px 4px 9px #0000007a, inset -2px -4px 9px #0000003e
 }
 
 #submit {
     background-color: #e6e6e6;
-    width: 84%;
+    width: 100%;
     height: 35px;
     margin-bottom: 1em;
     border-radius: 50px;
