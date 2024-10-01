@@ -6,9 +6,27 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+header {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+
+    
+}
+.logo { 
+    width: 200px;
+margin-right: auto;
+
+
+
 }
 
-/* plasering och design navbar */
+/* plasering och design */
 .navbar {
     display: flex;
     justify-content: center;
@@ -16,18 +34,23 @@ body {
     background-color: #46ec7d;
     padding: 1rem;
     width: 50%;
-    height:auto; 
+    border: 3px solid black;
+    margin-right: auto;
+
+    
 }
-/* text navbar */
+/* text */
 .navbar a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
-/* Ändrar färg när man hoovrar över länken navbar */
+/* Ändrar färg när man hoovrar över länken */
 .navbar a:hover {
     background-color: #31c467;
 }
+
+
 
 
 /* Styling för nyhetsbrev-formulär/Anton*/
@@ -137,3 +160,32 @@ img.news-image {
     border-radius: 25%;
 }
 
+/* Footer content nedan*/
+footer{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+ 
+
+}
+
+.footercontent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    
+}
+.footercontent ul {
+    display:flex;
+    list-style: none;
+    
+}
+.footercontent li {
+    padding: 4%;
+
+}
