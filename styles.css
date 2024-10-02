@@ -114,11 +114,18 @@ margin-right: auto;
 /* Index main content box */
 
 #index-body {
-    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.index-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .index-main {
-    width: 79%;
+    max-width: 80%;
     height: 600px;
     border-style: solid;
     border-width: 0 2px 0 0;
@@ -127,7 +134,8 @@ margin-right: auto;
 /* Index sub content box, Nyheter och updateringar */
 
 .index-sub {
-    width: 20%;
+    max-width: 20%;
+    min-width: 200px;
 }
 
 .centerd-display {
