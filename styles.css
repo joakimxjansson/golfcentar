@@ -26,15 +26,16 @@ margin-right: auto;
 
 }
 
+
 /* plasering och design */
 .navbar {
     display: flex;
     justify-content: center;
     align-items: start;
-    background-color: #46ec7d;
+    background-color: #e5e5cc;
     padding: 1rem;
     width: 50%;
-    border: 3px solid black;
+    border: 0;
     margin-right: auto;
 
     
@@ -44,13 +45,12 @@ margin-right: auto;
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 0.5rem 1rem;
+    font-weight: bold;
 }
 /* Ändrar färg när man hoovrar över länken */
 .navbar a:hover {
-    background-color: #31c467;
+    background-color: #bbbb77;
 }
-
-
 
 
 /* Styling för nyhetsbrev-formulär/Anton*/
