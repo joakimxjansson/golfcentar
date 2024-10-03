@@ -52,6 +52,45 @@ margin-right: auto;
     background-color: #bbbb77;
 }
 
+/*styling landingpage/Sandra*/
+
+.landingp-h1 {
+    color: #55552b;
+    margin: 0px;
+}
+
+.landing-p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.landingp-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.landingp-box {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 5px;
+    background-color: #bbbb77;
+    color: #e5e5cc;
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;  
+}
+
+.landingp-img {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 900px;
+}
+
 
 /* Styling för nyhetsbrev-formulär/Anton*/
 
