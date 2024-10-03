@@ -6,21 +6,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    background-color: #e5e5cc;;
 
 }
 header {
     display: flex;
     flex-direction: row;
-
     align-items: center;
     width: 100vw;
     justify-content: center;
+    background-color: #55552b;
 
     
 }
 .logo { 
     width: 200px;
 margin-right: auto;
+
 
 
 
@@ -37,6 +40,7 @@ margin-right: auto;
     width: 50%;
     border: 0;
     margin-right: auto;
+   
 
     
 }
@@ -68,6 +72,9 @@ margin-right: auto;
 .landingp-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    margin-top: 5%;
 }
 
 .landingp-box {
@@ -77,18 +84,19 @@ margin-right: auto;
     margin-top: 5px;
     background-color: #bbbb77;
     color: #e5e5cc;
-    width: 600px;
+    width: 40%;
     height: 600px;
     padding: 20px;
     font-size: 20px;
     text-align: center;  
+    
 }
 
 .landingp-img {
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 900px;
+    width: 80%;
 }
 
 
@@ -103,7 +111,6 @@ margin-right: auto;
     padding-left: 1em;
     padding-right: 1em;
     
-    border: 3px solid #55552b;
     border-radius: 30px;
     
 }
@@ -153,13 +160,19 @@ margin-right: auto;
 
 #index-body {
     flex-direction: column;
+    
 }
 
 .index-group {
     display: flex;
     flex-direction: row;
+   
+    width: 100vw;
     justify-content: center;
     align-items: center;
+    
+
+    
 }
 
 .index-main {
@@ -167,6 +180,10 @@ margin-right: auto;
     height: 600px;
     border-style: solid;
     border-width: 0 2px 0 0;
+    align-items: center;
+    text-align: center;
+    
+    
 }
 
 /* Index sub content box, Nyheter och updateringar */
@@ -174,6 +191,12 @@ margin-right: auto;
 .index-sub {
     max-width: 20%;
     min-width: 200px;
+    border: 3px solid #55552b;
+    border-radius: 30px;
+    background-color:#bbbb77;
+    box-shadow: 0 4px 10px #ebebb1;
+    
+
 }
 
 .centerd-display {
@@ -181,6 +204,9 @@ margin-right: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    
+    
 }
 
 .news-text {
@@ -201,9 +227,10 @@ ul.news-list li{
 }
 
 img.news-image {
-    max-width: 50%;
+    max-width: 50%;  
     height: auto;
     border-radius: 25%;
+    padding-top: 10px;
 }
 
 /* Footer content nedan*/
