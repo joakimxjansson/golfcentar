@@ -262,3 +262,64 @@ footer{
     padding: 4%;
 
 }
+
+
+
+                                    /*Kontakt Adam*/
+
+.kon {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.kontakt-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.kontakt-info {
+    display: flex;
+    justify-content: center; 
+    gap: 130px;
+    width: 70%; 
+    margin-bottom: 40px;
+}
+
+/*Karta*/
+
+iframe {
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+/*Formulär*/
+
+.form-container {
+    text-align: center;
+}
+
+/*submit knapp*/
+
+input[type="submit"] {
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 12px 20px;
+    margin: 10px auto 50px;
+    background-color: #55552b;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    box-shadow: 2px 4px 9px #000000d4, -2px -4px 9px #ffffffb3;
+}
+
+input[type="submit"]:hover{
+    background-color: white;
+    border: #55552b 1px solid;
+    color: #55552b;
+}
+
+
+                                    /*Kontakt Adam*/
