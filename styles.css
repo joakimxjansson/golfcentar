@@ -267,7 +267,8 @@ footer{
 
                             /*Kontaktsida - Adam*/
 
-h1 {
+/*H1*/
+.kon { 
     text-align: center;
     margin-bottom: 30px;
 }
