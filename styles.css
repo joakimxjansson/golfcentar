@@ -301,7 +301,7 @@ iframe {
 
 /*submit knapp*/
 
-input[id ="an"] {
+#sumbmit-an {
     color: white;
     font-size: 15px;
     letter-spacing: 1px;
@@ -315,7 +315,7 @@ input[id ="an"] {
     box-shadow: 2px 4px 9px #000000d4, -2px -4px 9px #ffffffb3;
 }
 
-input[id="an"]:hover{
+#submit-an :hover{
     background-color: white;
     border: #55552b 1px solid;
     color: #55552b;
