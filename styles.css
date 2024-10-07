@@ -102,9 +102,9 @@ margin-right: auto;
 
 /* Styling för nyhetsbrev-formulär/Anton*/
 
-.newsform {
+.newsform-aj {
     background-color: #bbbb77;
-    max-width: 100%;
+    max-width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,7 +115,7 @@ margin-right: auto;
     
 }
 
-#fname {
+#fname-aj {
     background-color: #e5e5cc;
     width: 100%;
     height: 35px;
@@ -125,7 +125,7 @@ margin-right: auto;
     box-shadow: inset 2px 4px 9px #0000007a, inset -2px -4px 9px #0000003e
 }
 
-#email {
+#email-aj {
     background-color: #e5e5cc;
     width: 100%;
     height: 35px;
@@ -135,8 +135,9 @@ margin-right: auto;
     box-shadow: inset 2px 4px 9px #0000007a, inset -2px -4px 9px #0000003e
 }
 
-#submit {
+#submit-aj {
     background-color: #e5e5cc;
+    text-align: center;
     width: 100%;
     height: 35px;
     margin-bottom: 1em;
@@ -150,7 +151,7 @@ margin-right: auto;
     font-weight: 1000;
     
 }
-#submit:hover {
+#submit-aj:hover {
     box-shadow: none;
     color: green;
     }
