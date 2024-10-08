@@ -3,7 +3,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -102,9 +101,9 @@ margin-right: auto;
 
 /* Styling för nyhetsbrev-formulär/Anton*/
 
-.newsform {
+.newsform-aj {
     background-color: #bbbb77;
-    max-width: 100%;
+    max-width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,7 +114,7 @@ margin-right: auto;
     
 }
 
-#fname {
+#fname-aj {
     background-color: #e5e5cc;
     width: 100%;
     height: 35px;
@@ -125,7 +124,7 @@ margin-right: auto;
     box-shadow: inset 2px 4px 9px #0000007a, inset -2px -4px 9px #0000003e
 }
 
-#email {
+#email-aj {
     background-color: #e5e5cc;
     width: 100%;
     height: 35px;
@@ -135,8 +134,9 @@ margin-right: auto;
     box-shadow: inset 2px 4px 9px #0000007a, inset -2px -4px 9px #0000003e
 }
 
-#submit {
+#submit-aj {
     background-color: #e5e5cc;
+    text-align: center;
     width: 100%;
     height: 35px;
     margin-bottom: 1em;
@@ -150,7 +150,7 @@ margin-right: auto;
     font-weight: 1000;
     
 }
-#submit:hover {
+#submit-aj:hover {
     box-shadow: none;
     color: green;
     }
@@ -158,45 +158,23 @@ margin-right: auto;
 
 /* Index main content box */
 
-#index-body {
-    flex-direction: column;
-    
-}
-
-.index-group {
+.index-content-of {
     display: flex;
     flex-direction: row;
-   
     width: 100vw;
     justify-content: center;
     align-items: center;
-    
-
-    
 }
 
-.index-main {
-    max-width: 80%;
-    height: 600px;
-    border-style: solid;
-    border-width: 0 2px 0 0;
-    align-items: center;
-    text-align: center;
-    
-    
-}
+/* Index Nyheter och updateringar */
 
-/* Index sub content box, Nyheter och updateringar */
-
-.index-sub {
+.index-side-of {
     max-width: 20%;
     min-width: 200px;
     border: 3px solid #55552b;
     border-radius: 30px;
     background-color:#bbbb77;
     box-shadow: 0 4px 10px #ebebb1;
-    
-
 }
 
 .centerd-display {
@@ -204,9 +182,6 @@ margin-right: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    
-    
 }
 
 .news-text {
@@ -301,7 +276,7 @@ iframe {
 
 /*submit knapp*/
 
-input[type="submit"] {
+#submit-an {
     color: white;
     font-size: 15px;
     letter-spacing: 1px;
@@ -315,7 +290,7 @@ input[type="submit"] {
     box-shadow: 2px 4px 9px #000000d4, -2px -4px 9px #ffffffb3;
 }
 
-input[type="submit"]:hover{
+#submit-an:hover{
     background-color: white;
     border: #55552b 1px solid;
     color: #55552b;
