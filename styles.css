@@ -3,7 +3,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -159,45 +158,23 @@ margin-right: auto;
 
 /* Index main content box */
 
-#index-body {
-    flex-direction: column;
-    
-}
-
-.index-group {
+.index-content-of {
     display: flex;
     flex-direction: row;
-   
     width: 100vw;
     justify-content: center;
     align-items: center;
-    
-
-    
 }
 
-.index-main {
-    max-width: 80%;
-    height: 600px;
-    border-style: solid;
-    border-width: 0 2px 0 0;
-    align-items: center;
-    text-align: center;
-    
-    
-}
+/* Index Nyheter och updateringar */
 
-/* Index sub content box, Nyheter och updateringar */
-
-.index-sub {
+.index-side-of {
     max-width: 20%;
     min-width: 200px;
     border: 3px solid #55552b;
     border-radius: 30px;
     background-color:#bbbb77;
     box-shadow: 0 4px 10px #ebebb1;
-    
-
 }
 
 .centerd-display {
@@ -205,9 +182,6 @@ margin-right: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    
-    
 }
 
 .news-text {
@@ -298,6 +272,19 @@ iframe {
 
 .form-container {
     text-align: center;
+    padding: 10px 20px;
+    border: #55552b solid 2px;
+    border-radius: 20px;
+    background-color: #bbbb77;
+}
+
+#email-an {
+    background-color: #e5e5cc;
+    width: 40%;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: inset 2px 4px 9px #0000007a, inset -2px -4px 9px #0000003e
 }
 
 /*submit knapp*/
