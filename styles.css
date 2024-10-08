@@ -321,9 +321,9 @@ iframe {
     padding-left: 1em;
     padding-right: 1em;
     margin-top: 2em;
-    margin-right: 2em;
+    margin-right: auto;
     margin-bottom: 2em;
-    margin-left: 2em;
+    margin-left: auto;
     border-radius: 25px;
 }
 
