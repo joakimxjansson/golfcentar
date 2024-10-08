@@ -272,6 +272,19 @@ iframe {
 
 .form-container {
     text-align: center;
+    padding: 10px 20px;
+    border: #55552b solid 2px;
+    border-radius: 20px;
+    background-color: #bbbb77;
+}
+
+#email-an {
+    background-color: #e5e5cc;
+    width: 40%;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: inset 2px 4px 9px #0000007a, inset -2px -4px 9px #0000003e
 }
 
 /*submit knapp*/
