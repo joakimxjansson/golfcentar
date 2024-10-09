@@ -69,12 +69,53 @@ margin-right: auto;
 }
 
 .landingp-container {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;  
     margin-top: 5%;
 }
+.landingp-container .landingp-btn
+{
+    position: absolute;
+    height: 4%;
+    width: 10%;
+    left: 50%;
+    background-color: #e5e5cc;
+
+
+}
+
+  
+    
+.landingp-btn{ 
+    position: absolute;
+    height: 4%;
+    width: 10%;
+    left: 50%;
+    background-color: #e5e5cc;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    align-content: center;
+    color: black;
+    font-weight: bold;
+    box-shadow: 2px 4px 9px #000000d4, -2px -4px 9px #ffffffb3;
+    transition: 0.5s;
+
+    
+}
+.landingp-btn:hover {
+    background-color: #bbbb77;
+    box-shadow: none;
+    color: green;
+    opacity: 90%;
+
+
+
+}
+
 
 .landingp-box {
     display: flex;
@@ -96,6 +137,7 @@ margin-right: auto;
     flex-direction: column;
     margin: auto;
     width: 80%;
+    height: auto;
 }
 
 
