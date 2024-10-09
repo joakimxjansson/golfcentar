@@ -29,7 +29,7 @@ margin-right: auto;
 }
 
 
-/* plasering och design */
+/* plasering och design /Linnea */
 .navbar {
     display: flex;
     justify-content: center;
@@ -43,17 +43,31 @@ margin-right: auto;
 
     
 }
-/* text */
+/* text /linnea */
 .navbar a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 0.5rem 1rem;
     font-weight: bold;
 }
-/* Ändrar färg när man hoovrar över länken */
+/* Ändrar färg när man hoovrar över länken/linnea */
 .navbar a:hover {
     background-color: #bbbb77;
 }
+/* LOG IN KNAPP /Linnea*/
+.buttonLogInLS {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* slut på knapp /*
 
 /*styling landingpage/Sandra*/
 
