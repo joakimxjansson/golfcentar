@@ -171,6 +171,7 @@ margin-right: auto;
 .index-side-of {
     max-width: 20%;
     min-width: 200px;
+    color: #55552b;
     border: 3px solid #55552b;
     border-radius: 30px;
     background-color:#bbbb77;
