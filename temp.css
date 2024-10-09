@@ -17,6 +17,8 @@
 
 .event-weekdays-of {
     width: 100%;
+    background-color: #bbbb77;
+    font-size: 120%;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -36,7 +38,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: #bbbb77;
 }
 
 .event-days-of {
@@ -52,15 +54,19 @@
     min-height: 4rem;
     margin: 0;
     padding: 0;
-    border: 0.1rem;
-    border-style: solid;
+    /* border: 0.1rem;
+    border-style: solid; */
     text-align: center;
+}
+
+.event-calendar-of li:not(:last-child) {
+    border-right: 1px solid #55552b;
 }
 
 .event-days-of li span{
     display: block;
-    background-color: rgba(128, 128, 128, 0.5);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.125);
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.5); */
 }
 
 .event-event-of span {
