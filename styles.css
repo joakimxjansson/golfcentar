@@ -386,3 +386,83 @@ label.knapp-aj {
   }
   
 /*slut på förmåner till medlemssektion/Anton*/
+
+/* START | Event och evenemang (events.html) Olle */
+
+.event-calendar-of {
+    padding-top: 2rem;
+    width: 80%;
+    margin: auto;
+}
+
+.event-month-of {
+    width: 100%;
+    height: 7rem;
+    background-color: #55552b;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.event-weekdays-of {
+    width: 100%;
+    background-color: #bbbb77;
+    font-size: 120%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.event-weekdays-of li {
+    width: 14.3%;
+    text-align: center;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event-weeks-of {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #bbbb77;
+}
+
+.event-days-of {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.event-days-of li{    
+    width: 20%;
+    min-height: 4rem;
+    margin: 0;
+    padding: 0;
+    /* border: 0.1rem;
+    border-style: solid; */
+    text-align: center;
+}
+
+.event-calendar-of li:not(:last-child) {
+    border-right: 1px solid #55552b;
+}
+
+.event-days-of li span{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.125);
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.5); */
+}
+
+.event-event-of span {
+    display: inline-block;
+    width: 100%;
+}
+
+/* SLUT | Event och evenemang (events.html) Olle */
