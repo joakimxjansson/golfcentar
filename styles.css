@@ -634,12 +634,7 @@ label.knapp-aj {
 
 /* start Om oss- rama */
 
-ra-new-image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px auto;
- }
+
  .ra-content {
     max-width: 90%; /* Gör innehållet bredare */
     margin: 20px auto;
@@ -661,7 +656,7 @@ ra-new-image {
     color: #55552b;
     margin-bottom: 15px;
     padding: 10px;
-    background-color: #f9f9f9;
+    background-color: #bbbb77;
     border-radius: 5px;
  }
  .ra-list {
@@ -669,7 +664,7 @@ ra-new-image {
     padding-left: 0;
  }
  .ra-list li {
-    background: #f9f9f9; /* Ljus bakgrund för listor */
+    background: #bbbb77; /* Ljus bakgrund för listor */
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 5px;
