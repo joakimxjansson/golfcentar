@@ -635,52 +635,98 @@ label.knapp-aj {
 /* start Om oss- rama */
 
 
- .ra-content {
-    max-width: 90%; /* Gör innehållet bredare */
+.ra-content {
+
+    max-width: 800px;
+
     margin: 20px auto;
+
     padding: 20px;
-    background-color: #bbbb77; /* Samma färg som i första designen */
+
+    background-color: #e5e5cc; /* Ljus bakgrundsfärg */
+
     border-radius: 10px;
+
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
- }
- .ra-header {
+
+}
+
+.ra-header {
+
     font-size: 1.8em;
-    color: #55552b;
-    background-color: #bbbb77; /* Ljusare bakgrund för rubriker */
-    padding: 15px;
-    border-radius: 5px;
-    margin-bottom: 15px;
- }
- .ra-paragraph {
-    font-size: 1.2em;
-    color: #55552b;
-    margin-bottom: 15px;
+
+    color: #55552b; /* Mörk textfärg */
+
+    background-color: #bbbb77; /* Gul bakgrund */
+
     padding: 10px;
-    background-color: #bbbb77;
+
     border-radius: 5px;
- }
- .ra-list {
+
+    margin-bottom: 15px;
+
+}
+
+.ra-paragraph {
+
+    font-size: 1.2em;
+
+    color: #55552b;
+
+    margin-bottom: 15px;
+
+    padding: 10px;
+
+    background-color: #f9f9f9; /* Ljus bakgrund för text */
+
+    border-radius: 5px;
+
+}
+
+.ra-list {
+
     list-style: none;
+
     padding-left: 0;
- }
- .ra-list li {
-    background: #bbbb77; /* Ljus bakgrund för listor */
-    padding: 15px;
+
+}
+
+.ra-list li {
+
+    background: #f9f9f9; /* Ljus bakgrund för listobjekt */
+
+    padding: 10px;
+
     margin-bottom: 10px;
+
     border-radius: 5px;
+
     color: #55552b;
- }
- .ra-list li strong {
-    color: #55552b;
- }
- .ra-footer {
+
+}
+
+.ra-list li strong {
+
+    color: #55552b; /* Mörk textfärg för viktiga punkter */
+
+}
+
+.ra-footer {
+
     text-align: center;
+
     padding: 20px 0;
+
     background-color: #55552b;
+
     color: white;
+
     margin-top: 30px;
+
     border-radius: 10px;
- }
+
+}
+ 
 
  /*slut om oss-rama*/ 
 
