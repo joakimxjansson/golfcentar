@@ -724,3 +724,91 @@ label.knapp-aj {
 }
  /*slut om oss-rama*/ 
 
+/*Historian start - Batool*/
+
+     .bodyBF {
+            margin: 0;
+            padding: 0;
+            background-color: #b0b07b;
+            color: white;
+        }
+
+        .headerBF {
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sectionBF {
+            margin: 40px auto;
+            padding: 30px;
+            max-width: 1200px;
+            background-color: #bbbb77;
+            box-shadow: 0 6px 15px #ebebb1;
+            border-radius: 10px;
+            line-height: 1.8;
+        }
+
+        .h2BF {
+            color: #55552b;
+            font-size: 32px;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .hrBF {
+            width: 25%; 
+            margin: 0 auto; 
+            border: 1px solid #55552b; 
+        }
+
+        .pBF {
+            margin: 20px 0;
+            font-size: 18px;
+            color: #55552b;
+        }
+
+        .ulBF {
+            list-style: square;
+            margin: 20px 0;
+            padding-left: 20px;
+        }
+
+        .ulBF li {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #55552b;
+        }
+
+        .history-imageBF {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .image-itemBF {
+            text-align: center; 
+        }
+
+        .image-itemBF img {
+            width: 500px;
+            height: 350px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px #ebebb1;
+        }
+
+        .image-itemBF h3 {
+            margin-top: 10px; 
+            font-size: 20px;
+            color: #55552b;
+        }
+/*Historian slut - Batool*/
+
+
+
