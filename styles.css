@@ -23,9 +23,6 @@ header {
     width: 200px;
 margin-right: auto;
 
-
-
-
 }
 
 
@@ -39,8 +36,6 @@ margin-right: auto;
     width: 50%;
     border: 0;
     margin-right: auto;
-   
-
     
 }
 /* text /linnea */
@@ -63,7 +58,7 @@ margin-right: auto;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px 50px;
     cursor: pointer;
 }
 
