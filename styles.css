@@ -369,62 +369,67 @@ iframe {
                                     /*Kontakt Adam*/
 
 
-/*Boka Rama
-body {
-    background-color: #e5e5cc; 
+/*Boka - Rama*/
+
+.Ra-page-style {
+    background-color: #e5e5cc;
     font-family: Arial, sans-serif;
     color: #55552b;
-}
-h2 {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .Ra-header-style {
     text-align: center;
     color: #55552b;
-}
-.container {
+ }
+ .Ra-container-style {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #bbbb77; 
+    background-color: #bbbb77;
     border-radius: 10px;
-}
-.form-group {
+ }
+ .Ra-form-group-style {
     margin-bottom: 20px;
-}
-label {
+ }
+ .Ra-label-style {
     font-weight: bold;
-}
-input[type="date"], select {
+ }
+ .Ra-input-style {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
     font-size: 16px;
     border: 1px solid #55552b;
     border-radius: 5px;
-}
-table {
+ }
+ .Ra-table-style {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    background-color: #bbbb77; 
-}
-table, th, td {
-    border: 1px solid #55552b; 
-}
-th, td {
+    background-color: #bbbb77;
+ }
+ .Ra-table-style, .Ra-th-style, .Ra-td-style {
+    border: 1px solid #55552b;
+ }
+ .Ra-th-style, .Ra-td-style {
     padding: 10px;
     text-align: center;
-}
-th {
+ }
+ .Ra-th-style {
     background-color: #55552b;
     color: white;
-}
-td.available {
-    background-color: #ccffcc; 
-}
-td.booked {
-    background-color: #ffcccc; 
+ }
+ .Ra-available {
+    background-color: #ccffcc;
+ }
+ .Ra-booked {
+    background-color: #ffcccc;
     cursor: not-allowed;
-}
-.book-now {
+ }
+ .Ra-button-style {
     width: 100%;
     padding: 10px;
     background-color: #55552b;
@@ -434,11 +439,11 @@ td.booked {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
-}
-.book-now:hover {
+ }
+ .Ra-button-style:hover {
     background-color: #66663a;
-}
-/*Boka Rama */ 
+ }
+/*Boka- Rama */ 
 
 /*Greenfee och bokning - Sandra*/
 .h3greenfee-st {
