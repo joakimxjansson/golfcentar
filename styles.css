@@ -633,53 +633,120 @@ label.knapp-aj {
 /* SLUT | Event och evenemang (events.html) Olle */
 
 /* start Om oss- rama */
+* {
 
- .ra-new-image {
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+.ra-new-image {
+
     max-width: 100%;
+
     height: auto;
+
     display: block;
-    margin: 20px auto; /* Justering för att centrera bilden */
- }
- .ra-content {
-    max-width: 800px;
+
     margin: 20px auto;
+
+}
+
+.ra-content {
+
+    max-width: 800px;
+
+    margin: 20px auto;
+
     padding: 20px;
-    background-color: #bbbb77; /* Ljus bakgrund för innehållet */
+
+    background-color: #e5e5cc; /* Ljus bakgrundsfärg */
+
     border-radius: 10px;
+
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
- }
- .ra-header {
-    font-size: 2em;
-    color: #55552b;
-    margin-bottom: 15px;
- }
- .ra-paragraph {
-    font-size: 1.2em;
-    margin-bottom: 15px;
-    color: #55552b;
- }
- .ra-list {
-    list-style: none;
-    padding-left: 0;
- }
- .ra-list li {
-    background: #e5e5cc; /* Ljusgul färg för listobjekt */
+
+}
+
+.ra-header {
+
+    font-size: 1.8em;
+
+    color: #55552b; /* Mörk textfärg */
+
+    background-color: #bbbb77; /* Gul bakgrund */
+
     padding: 10px;
-    margin-bottom: 10px;
+
     border-radius: 5px;
-    color: #55552b; /* Samma textfärg */
- }
- .ra-list li strong {
-    color: #55552b; /* för viktiga punkter */
- }
- .ra-footer {
+
+    margin-bottom: 15px;
+
+}
+
+.ra-paragraph {
+
+    font-size: 1.2em;
+
+    color: #55552b;
+
+    margin-bottom: 15px;
+
+    padding: 10px;
+
+    background-color: #f9f9f9; /* Ljus bakgrund för text */
+
+    border-radius: 5px;
+
+}
+
+.ra-list {
+
+    list-style: none;
+
+    padding-left: 0;
+
+}
+
+.ra-list li {
+
+    background: #f9f9f9; /* Ljus bakgrund för listobjekt */
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+
+    color: #55552b;
+
+}
+
+.ra-list li strong {
+
+    color: #55552b; /* Mörk textfärg för viktiga punkter */
+
+}
+
+.ra-footer {
+
     text-align: center;
+
     padding: 20px 0;
+
     background-color: #55552b;
+
     color: white;
+
     margin-top: 30px;
+
     border-radius: 10px;
- }
+
+}
+ 
 
  /*slut om oss-rama*/ 
 
