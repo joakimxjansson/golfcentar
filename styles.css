@@ -373,6 +373,79 @@ iframe {
 
                                     /*Kontakt Adam*/
 
+<<<<<<< HEAD
+
+/*Boka Rama*/
+body {
+    background-color: #e5e5cc; 
+    font-family: Arial, sans-serif;
+    color: #55552b;
+}
+h2 {
+    text-align: center;
+    color: #55552b;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #bbbb77; 
+    border-radius: 10px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    font-weight: bold;
+}
+input[type="date"], select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #55552b;
+    border-radius: 5px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #bbbb77; 
+}
+table, th, td {
+    border: 1px solid #55552b; 
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #55552b;
+    color: white;
+}
+td.available {
+    background-color: #ccffcc; 
+}
+td.booked {
+    background-color: #ffcccc; 
+    cursor: not-allowed;
+}
+.book-now {
+    width: 100%;
+    padding: 10px;
+    background-color: #55552b;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.book-now:hover {
+    background-color: #66663a;
+}
+/*Boka Rama */ 
+=======
 /*förmåner till medlemssektion/Anton*/
 .formaner-aj {
     width: 70%;
@@ -524,3 +597,4 @@ label.knapp-aj {
 }
 
 /* SLUT | Event och evenemang (events.html) Olle */
+>>>>>>> f40f03071cbf6274ff244d1c3386e3468028eddb
