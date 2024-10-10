@@ -445,6 +445,41 @@ td.booked {
 }
 /*Boka Rama */ 
 
+/*Greenfee och bokning - Sandra*/
+.h3greenfee-st {
+    text-decoration-line: underline;
+}
+
+.bokning-content-st {
+    background-color: #bbbb77;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px #55552b;
+}
+
+.bokning1-st {
+    background-color: #e5e5cc;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+
+.bokning2-st {
+    background-color: #e5e5cc;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+/*Greenfee och bokning SLUT - Sandra*/
+
+
+
+
 /*förmåner till medlemssektion/Anton*/
 .formaner-aj {
     width: 70%;
