@@ -71,12 +71,12 @@ margin-right: auto;
 
 /*styling landingpage/Sandra*/
 
-.landingp-h1 {
+.landingp-h1-st {
     color: #55552b;
     margin: 0px;
 }
 
-.landing-p {
+.landing-p-st {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
@@ -128,13 +128,13 @@ margin-right: auto;
 }
 
 
-.landingp-box {
+.landingp-box-st {
     display: flex;
     flex-direction: column;
     margin: auto;
     margin-top: 5px;
     background-color: #bbbb77;
-    color: #e5e5cc;
+    color: black;
     width: 40%;
     height: 600px;
     padding: 20px;
