@@ -634,7 +634,7 @@ label.knapp-aj {
 
 /* start Om oss- rama */
 
-.ra-new-image {
+ra-new-image {
     max-width: 100%;
     height: auto;
     display: block;
@@ -644,14 +644,14 @@ label.knapp-aj {
     max-width: 90%; /* Gör innehållet bredare */
     margin: 20px auto;
     padding: 20px;
-    background-color: #bbbb77; /**/
+    background-color: #bbbb77; /* Samma färg som i första designen */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
  }
  .ra-header {
     font-size: 1.8em;
     color: #55552b;
-    background-color: #bbbb77; /*  bakgrund för rubriker */
+    background-color: #bbbb77; /* Ljusare bakgrund för rubriker */
     padding: 15px;
     border-radius: 5px;
     margin-bottom: 15px;
@@ -661,7 +661,7 @@ label.knapp-aj {
     color: #55552b;
     margin-bottom: 15px;
     padding: 10px;
-    background-color: #;
+    background-color: #f9f9f9;
     border-radius: 5px;
  }
  .ra-list {
@@ -685,7 +685,7 @@ label.knapp-aj {
     color: white;
     margin-top: 30px;
     border-radius: 10px;
- } 
+ }
 
  /*slut om oss-rama*/ 
 
