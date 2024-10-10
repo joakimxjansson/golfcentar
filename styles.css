@@ -29,7 +29,7 @@ margin-right: auto;
 }
 
 
-/* plasering och design */
+/* plasering och design /Linnea */
 .navbar {
     display: flex;
     justify-content: center;
@@ -43,17 +43,31 @@ margin-right: auto;
 
     
 }
-/* text */
+/* text /linnea */
 .navbar a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 0.5rem 1rem;
     font-weight: bold;
 }
-/* Ändrar färg när man hoovrar över länken */
+/* Ändrar färg när man hoovrar över länken/linnea */
 .navbar a:hover {
     background-color: #bbbb77;
 }
+/* LOG IN KNAPP /Linnea*/
+.buttonLogInLS {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* slut på knapp /*
 
 /*styling landingpage/Sandra*/
 
@@ -68,13 +82,51 @@ margin-right: auto;
     padding-top: 10px;
 }
 
-.landingp-container-st {
+.landingp-container {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;  
     margin-top: 5%;
 }
+
+
+
+.btn-img {
+    position: relative;
+    
+}
+  
+    
+.landingp-btn{ 
+    position: absolute;
+    padding: 10px 30px;
+    left: 50%;
+    bottom: 15%;
+    background-color: #e5e5cc;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    align-content: center;
+    color: black;
+    font-weight: bold;
+    box-shadow: 2px 4px 9px #000000d4, -2px -4px 9px #ffffffb3;
+    transition: 0.5s;
+    cursor: pointer;
+
+    
+}
+.landingp-btn:hover {
+    background-color: #bbbb77;
+    box-shadow: none;
+    color: green;
+    opacity: 90%;
+
+
+
+}
+
 
 .landingp-box-st {
     display: flex;
@@ -96,6 +148,7 @@ margin-right: auto;
     flex-direction: column;
     margin: auto;
     width: 80%;
+    height: auto;
 }
 
 
@@ -171,6 +224,7 @@ margin-right: auto;
 .index-side-of {
     max-width: 20%;
     min-width: 200px;
+    color: #55552b;
     border: 3px solid #55552b;
     border-radius: 30px;
     background-color:#bbbb77;
@@ -210,6 +264,8 @@ img.news-image {
 
 /* Footer content nedan*/
 footer{ 
+    background-color: #55552b;
+    
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -225,16 +281,19 @@ footer{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;  
+    justify-content: center; 
+    
     
 }
 .footercontent ul {
     display:flex;
     list-style: none;
     
+    
 }
 .footercontent li {
     padding: 4%;
+    
 
 }
 
@@ -272,15 +331,17 @@ iframe {
 
 .form-container {
     text-align: center;
-    padding: 10px 20px;
+    padding: 10px 25px;
     border: #55552b solid 2px;
     border-radius: 20px;
     background-color: #bbbb77;
 }
 
 #email-an {
+    margin-top: 15px;
+    padding-left: 12px;
     background-color: #e5e5cc;
-    width: 40%;
+    width: 65%;
     height: 35px;
     border-radius: 50px;
     border: none;
@@ -294,7 +355,7 @@ iframe {
     font-size: 15px;
     letter-spacing: 1px;
     padding: 12px 20px;
-    margin: 10px auto 50px;
+    margin: 20px auto 35px;
     background-color: #55552b;
     cursor: pointer;
     border: none;
@@ -311,3 +372,155 @@ iframe {
 
 
                                     /*Kontakt Adam*/
+
+/*förmåner till medlemssektion/Anton*/
+.formaner-aj {
+    width: 70%;
+    background-color: #bbbb77;
+    color: #55552b;
+    border: 3px solid #55552b;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 2em;
+    margin-right: auto;
+    margin-bottom: 2em;
+    margin-left: auto;
+    border-radius: 25px;
+}
+
+.formaner-container-aj {
+    border: 0px solid #e5e5cc;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 25px;
+}
+
+#medlemsformaner-aj {
+    text-align: center;
+    border: 0px solid black;
+}
+
+.rabatt-aj {
+    padding: 2em;
+    background: #e5e5cc;
+    transition: all 0.2s ease;
+    opacity: 1;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 30px;
+    border: 2px solid #55552b;
+}
+
+input[type="checkbox"].hide-input-aj:checked + .rabatt-aj {
+    min-height: 0;
+    height: 0;
+    opacity: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+input.hide-input-aj {
+    position: absolute;
+    left: -999em;
+}
+
+label.knapp-aj {
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    background: #e5e5cc;
+    border-radius: 30px;
+    user-select: none;
+    box-shadow: 2px 4px 9px #55552b, -2px -4px 9px #e5e5cc;
+    font-weight: 700;
+  }
+
+  label.knapp-aj:hover {
+    box-shadow: none;
+    transition: 0.5s;
+  }
+  
+/*slut på förmåner till medlemssektion/Anton*/
+
+/* START | Event och evenemang (events.html) Olle */
+
+.event-calendar-of {
+    padding-top: 2rem;
+    width: 80%;
+    margin: auto;
+}
+
+.event-month-of {
+    width: 100%;
+    height: 7rem;
+    background-color: #55552b;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.event-weekdays-of {
+    width: 100%;
+    background-color: #bbbb77;
+    font-size: 120%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.event-weekdays-of li {
+    width: 14.3%;
+    text-align: center;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event-weeks-of {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #bbbb77;
+}
+
+.event-days-of {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.event-days-of li{    
+    width: 20%;
+    min-height: 4rem;
+    margin: 0;
+    padding: 0;
+    /* border: 0.1rem;
+    border-style: solid; */
+    text-align: center;
+}
+
+.event-calendar-of li:not(:last-child) {
+    border-right: 1px solid #55552b;
+}
+
+.event-days-of li span{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.125);
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.5); */
+}
+
+.event-event-of span {
+    display: inline-block;
+    width: 100%;
+}
+
+/* SLUT | Event och evenemang (events.html) Olle */
