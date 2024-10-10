@@ -632,3 +632,95 @@ label.knapp-aj {
 
 /* SLUT | Event och evenemang (events.html) Olle */
 
+/* start Om oss- rama */
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+.ra-new-image {
+
+    max-width: 100%;
+
+    height: auto;
+
+    display: block;
+
+    margin: 0 auto;
+
+}
+
+.ra-content {
+
+    max-width: 800px;
+
+    margin: 20px auto;
+
+    padding: 20px;
+
+    background-color: #f9f9f9; /* Justera färgen vid behov */
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.ra-header {
+
+    font-size: 2em;
+
+    color: #55552b;
+
+    margin-bottom: 15px;
+
+}
+
+.ra-paragraph {
+
+    font-size: 1.2em;
+
+    margin-bottom: 15px;
+
+}
+
+.ra-list {
+
+    list-style: none;
+
+}
+
+.ra-list li {
+
+    background: #e5e5cc;
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+
+}
+
+.ra-footer {
+
+    text-align: center;
+
+    padding: 20px 0;
+
+    background-color: #55552b;
+
+    color: white;
+
+    margin-top: 30px;
+
+    border-radius: 10px;
+
+}
+ /*slut om oss-rama*/ 
+
