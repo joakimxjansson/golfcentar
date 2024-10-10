@@ -644,14 +644,14 @@ label.knapp-aj {
     max-width: 90%; /* Gör innehållet bredare */
     margin: 20px auto;
     padding: 20px;
-    background-color: #bbbb77; /* Samma färg som i första designen */
+    background-color: #bbbb77; /**/
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
  }
  .ra-header {
     font-size: 1.8em;
     color: #55552b;
-    background-color: #e5e5cc; /* Ljusare bakgrund för rubriker */
+    background-color: #e5e5cc; /*  bakgrund för rubriker */
     padding: 15px;
     border-radius: 5px;
     margin-bottom: 15px;
@@ -661,7 +661,7 @@ label.knapp-aj {
     color: #55552b;
     margin-bottom: 15px;
     padding: 10px;
-    background-color: #f9f9f9;
+    background-color: #;
     border-radius: 5px;
  }
  .ra-list {
@@ -669,7 +669,7 @@ label.knapp-aj {
     padding-left: 0;
  }
  .ra-list li {
-    background: #f9f9f9; /* Ljus bakgrund för listor */
+    background: #55552b; /* Ljus bakgrund för listor */
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 5px;
