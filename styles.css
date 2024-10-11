@@ -650,7 +650,7 @@ label.knapp-aj {
  }
  .ra-header {
     font-size: 1.8em;
-    color: #55552b;
+    color: #000000;
     background-color: #e5e5cc; /* Ljusare bakgrund för rubriker */
     padding: 15px;
     border-radius: 5px;
@@ -658,7 +658,7 @@ label.knapp-aj {
  }
  .ra-paragraph {
     font-size: 1.2em;
-    color: #55552b;
+    color: #000000;
     margin-bottom: 15px;
     padding: 10px;
     background-color: #e5e5cc;
