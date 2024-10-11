@@ -23,13 +23,10 @@ header {
     width: 200px;
 margin-right: auto;
 
-
-
-
 }
 
 
-/* plasering och design */
+/* plasering och design /Linnea */
 .navbar {
     display: flex;
     justify-content: center;
@@ -39,21 +36,33 @@ margin-right: auto;
     width: 50%;
     border: 0;
     margin-right: auto;
-   
-
     
 }
-/* text */
+/* text /linnea */
 .navbar a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 0.5rem 1rem;
     font-weight: bold;
 }
-/* Ändrar färg när man hoovrar över länken */
+/* Ändrar färg när man hoovrar över länken/linnea */
 .navbar a:hover {
     background-color: #bbbb77;
 }
+/* LOG IN KNAPP /Linnea*/
+.buttonLogInLS {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 50px;
+    cursor: pointer;
+}
+
+/* slut på knapp /*
 
 /*styling landingpage/Sandra*/
 
@@ -69,12 +78,50 @@ margin-right: auto;
 }
 
 .landingp-container {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;  
     margin-top: 5%;
 }
+
+
+
+.btn-img {
+    position: relative;
+    
+}
+  
+    
+.landingp-btn{ 
+    position: absolute;
+    padding: 10px 30px;
+    left: 50%;
+    bottom: 15%;
+    background-color: #e5e5cc;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    align-content: center;
+    color: black;
+    font-weight: bold;
+    box-shadow: 2px 4px 9px #000000d4, -2px -4px 9px #ffffffb3;
+    transition: 0.5s;
+    cursor: pointer;
+
+    
+}
+.landingp-btn:hover {
+    background-color: #bbbb77;
+    box-shadow: none;
+    color: green;
+    opacity: 90%;
+
+
+
+}
+
 
 .landingp-box {
     display: flex;
@@ -96,6 +143,7 @@ margin-right: auto;
     flex-direction: column;
     margin: auto;
     width: 80%;
+    height: auto;
 }
 
 
@@ -171,6 +219,7 @@ margin-right: auto;
 .index-side-of {
     max-width: 20%;
     min-width: 200px;
+    color: #55552b;
     border: 3px solid #55552b;
     border-radius: 30px;
     background-color:#bbbb77;
@@ -210,6 +259,8 @@ img.news-image {
 
 /* Footer content nedan*/
 footer{ 
+    background-color: #55552b;
+    
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -225,16 +276,19 @@ footer{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;  
+    justify-content: center; 
+    
     
 }
 .footercontent ul {
     display:flex;
     list-style: none;
     
+    
 }
 .footercontent li {
     padding: 4%;
+    
 
 }
 
@@ -272,15 +326,18 @@ iframe {
 
 .form-container {
     text-align: center;
-    padding: 10px 20px;
+    padding: 10px 25px;
     border: #55552b solid 2px;
     border-radius: 20px;
     background-color: #bbbb77;
+    margin-bottom: 5rem;
 }
 
 #email-an {
+    margin-top: 15px;
+    padding-left: 12px;
     background-color: #e5e5cc;
-    width: 40%;
+    width: 65%;
     height: 35px;
     border-radius: 50px;
     border: none;
@@ -294,7 +351,7 @@ iframe {
     font-size: 15px;
     letter-spacing: 1px;
     padding: 12px 20px;
-    margin: 10px auto 50px;
+    margin: 20px auto 35px;
     background-color: #55552b;
     cursor: pointer;
     border: none;
@@ -311,6 +368,118 @@ iframe {
 
 
                                     /*Kontakt Adam*/
+
+
+/*Boka - Rama*/
+
+.Ra-page-style {
+    background-color: #e5e5cc;
+    font-family: Arial, sans-serif;
+    color: #55552b;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .Ra-header-style {
+    text-align: center;
+    color: #55552b;
+ }
+ .Ra-container-style {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #bbbb77;
+    border-radius: 10px;
+ }
+ .Ra-form-group-style {
+    margin-bottom: 20px;
+ }
+ .Ra-label-style {
+    font-weight: bold;
+ }
+ .Ra-input-style {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #55552b;
+    border-radius: 5px;
+ }
+ .Ra-table-style {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #bbbb77;
+ }
+ .Ra-table-style, .Ra-th-style, .Ra-td-style {
+    border: 1px solid #55552b;
+ }
+ .Ra-th-style, .Ra-td-style {
+    padding: 10px;
+    text-align: center;
+ }
+ .Ra-th-style {
+    background-color: #55552b;
+    color: white;
+ }
+ .Ra-available {
+    background-color: #ccffcc;
+ }
+ .Ra-booked {
+    background-color: #ffcccc;
+    cursor: not-allowed;
+ }
+ .Ra-button-style {
+    width: 100%;
+    padding: 10px;
+    background-color: #55552b;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+ }
+ .Ra-button-style:hover {
+    background-color: #66663a;
+ }
+/*Boka- Rama */ 
+
+/*Greenfee och bokning - Sandra*/
+.h3greenfee-st {
+    text-decoration-line: underline;
+}
+
+.bokning-content-st {
+    background-color: #bbbb77;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px #55552b;
+}
+
+.bokning1-st {
+    background-color: #e5e5cc;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+
+.bokning2-st {
+    background-color: #e5e5cc;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+/*Greenfee och bokning SLUT - Sandra*/
+
+
+
 
            /* Grundstil för kroppen */
            body {
@@ -380,9 +549,9 @@ iframe {
     padding-left: 1em;
     padding-right: 1em;
     margin-top: 2em;
-    margin-right: 2em;
+    margin-right: auto;
     margin-bottom: 2em;
-    margin-left: 2em;
+    margin-left: auto;
     border-radius: 25px;
 }
 
@@ -442,3 +611,345 @@ label.knapp-aj {
   }
   
 /*slut på förmåner till medlemssektion/Anton*/
+
+/* START | Event och evenemang (events.html) Olle */
+
+.event-calendar-of {
+    padding-top: 2rem;
+    width: 80%;
+    margin: auto;
+}
+
+.event-month-of {
+    width: 100%;
+    height: 7rem;
+    background-color: #55552b;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.event-weekdays-of {
+    width: 100%;
+    background-color: #bbbb77;
+    font-size: 120%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.event-weekdays-of li {
+    width: 14.3%;
+    text-align: center;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event-weeks-of {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #bbbb77;
+}
+
+.event-days-of {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.event-days-of li{    
+    width: 20%;
+    min-height: 4rem;
+    margin: 0;
+    padding: 0;
+    /* border: 0.1rem;
+    border-style: solid; */
+    text-align: center;
+}
+
+.event-calendar-of li:not(:last-child) {
+    border-right: 1px solid #55552b;
+}
+
+.event-days-of li span{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.125);
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.5); */
+}
+
+.event-event-of span {
+    display: inline-block;
+    width: 100%;
+}
+
+/* SLUT | Event och evenemang (events.html) Olle */
+
+/* start Om oss- rama */
+
+.ra-new-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+ }
+ .ra-content {
+    max-width: 90%; /* Gör innehållet bredare */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #bbbb77; /* Samma färg som i första designen */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ .ra-header {
+    font-size: 1.8em;
+    color: #000000;
+    background-color: #e5e5cc; /* Ljusare bakgrund för rubriker */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+ }
+ .ra-paragraph {
+    font-size: 1.2em;
+    color: #000000;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #e5e5cc;
+    border-radius: 5px;
+ }
+ .ra-list {
+    list-style: none;
+    padding-left: 0;
+ }
+ .ra-list li {
+    background: #e5e5cc; /* Ljus bakgrund för listor */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #000000;
+ }
+ .ra-list li strong {
+    color: #000000;
+ }
+ .ra-footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #55552b;
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+ }
+ 
+
+ /*slut om oss-rama*/ 
+
+/*Historian start - Batool*/
+
+     .bodyBF {
+            margin: 0;
+            padding: 0;
+            background-color: #b0b07b;
+            color: white;
+        }
+
+        .headerBF {
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sectionBF {
+            margin: 40px auto;
+            padding: 30px;
+            max-width: 1200px;
+            background-color: #bbbb77;
+            box-shadow: 0 6px 15px #ebebb1;
+            border-radius: 10px;
+            line-height: 1.8;
+        }
+
+        .h2BF {
+            color: #55552b;
+            font-size: 32px;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .hrBF {
+            width: 25%; 
+            margin: 0 auto; 
+            border: 1px solid #55552b; 
+        }
+
+        .pBF {
+            margin: 20px 0;
+            font-size: 18px;
+            color: #55552b;
+        }
+
+        .ulBF {
+            list-style: square;
+            margin: 20px 0;
+            padding-left: 20px;
+        }
+
+        .ulBF li {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #55552b;
+        }
+
+        .history-imageBF {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .image-itemBF {
+            text-align: center; 
+        }
+
+        .image-itemBF img {
+            width: 500px;
+            height: 350px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px #ebebb1;
+        }
+
+        .image-itemBF h3 {
+            margin-top: 10px; 
+            font-size: 20px;
+            color: #55552b;
+        }
+/*Historian slut - Batool*/
+
+/*Inloggningsförmuläret start - Batool*/
+
+ .bodyBF {
+            margin: 0;
+            padding: 0;
+            background-color: #b0b07b;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(images/IMG_6266.jpg); 
+            background-size: cover;
+            background-position: center;
+        }
+
+        .login-formBF {
+            padding: 40px;
+            width: 100%;
+            max-width: 450px;
+            background-color: rgba(187, 187, 119, 0.9); 
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .h2BF {
+            color: #44442a;
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+        .inputBF {
+            width: 100%;
+            padding: 15px;
+            margin: 15px 0;
+            border: 1px solid #ccc;
+            border-radius: 25px; 
+            font-size: 18px;
+            box-sizing: border-box;
+            transition: all 0.3s ease; 
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .inputBF:focus {
+            border-color: #44442a;
+            outline: none;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .buttonBF {
+            padding: 15px;
+            background-color: #44442a;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 20px;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .buttonBF:hover {
+            background-color: #333322;
+        }
+
+        .pBF {
+            color: #44442a;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        .aBF {
+            color: #44442a;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .aBF:hover {
+            color: #222211;
+        }
+
+        @media (max-width: 768px) {
+            .login-formBF {
+                padding: 30px;
+                max-width: 90%;
+            }
+
+            .inputBF, .buttonBF {
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .login-formBF {
+                padding: 20px;
+                max-width: 95%;
+            }
+
+            .h2BF {
+                font-size: 28px;
+            }
+
+            .inputBF, .buttonBF {
+                font-size: 14px;
+            }
+        }
+
+/*Inloggningsförmuläret slut - Batool*/
+
+
+
+
