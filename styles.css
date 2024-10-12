@@ -830,12 +830,11 @@ label.knapp-aj {
 
 /*Inloggningsförmuläret start - Batool*/
 
- .bodyBF {
+  .bodyBF {
             margin: 0;
             padding: 0;
             background-color: #b0b07b;
             color: white;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -856,11 +855,6 @@ label.knapp-aj {
             box-sizing: border-box;
         }
 
-        .h2BF {
-            color: #44442a;
-            font-size: 32px;
-            margin-bottom: 30px;
-        }
 
         .inputBF {
             width: 100%;
@@ -874,11 +868,6 @@ label.knapp-aj {
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         }
 
-        .inputBF:focus {
-            border-color: #44442a;
-            outline: none;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        }
 
         .buttonBF {
             padding: 15px;
@@ -894,7 +883,7 @@ label.knapp-aj {
         }
 
         .buttonBF:hover {
-            background-color: #333322;
+            background-color: #222212;
         }
 
         .pBF {
@@ -911,35 +900,8 @@ label.knapp-aj {
         }
 
         .aBF:hover {
-            color: #222211;
+            color: #222212;
         }
-
-        @media (max-width: 768px) {
-            .login-formBF {
-                padding: 30px;
-                max-width: 90%;
-            }
-
-            .inputBF, .buttonBF {
-                font-size: 16px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .login-formBF {
-                padding: 20px;
-                max-width: 95%;
-            }
-
-            .h2BF {
-                font-size: 28px;
-            }
-
-            .inputBF, .buttonBF {
-                font-size: 14px;
-            }
-        }
-
 /*Inloggningsförmuläret slut - Batool*/
 
 
