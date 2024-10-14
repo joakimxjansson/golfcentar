@@ -28,38 +28,58 @@ margin-right: auto;
 
 /* plasering och design /Linnea */
 .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    background-color: #e5e5cc;
-    padding: 1rem;
-    width: 50%;
-    border: 0;
-    margin-right: auto;
-    
+display: flex;
+justify-content: center;
+align-items: start;
+background-color: #e5e5cc;
+padding: 1rem;
+width: 50%;
+border: 0%;
+margin-right: auto;
+flex-wrap: wrap;
 }
 /* text /linnea */
 .navbar a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    font-weight: bold;
+color: rgb(0, 0, 0);
+text-decoration: none;
+padding: 0.5rem 1rem;
+font-weight: bold;
 }
 /* Ändrar färg när man hoovrar över länken/linnea */
 .navbar a:hover {
-    background-color: #bbbb77;
+background-color: #bbbb77;
 }
+
 /* LOG IN KNAPP /Linnea*/
 .buttonLogInLS {
-    border: none;
-    background-color: rgb(255, 255, 255);
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 50px;
-    cursor: pointer;
+border: none;
+background-color: rgb(255, 255, 255);
+padding: 15px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 50px;
+cursor: pointer;
+}
+.buttonLogInLS:hover {
+background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
+}
+/*Responsivitet knapp */
+@media (max-width: 768px) {
+    .buttonLogInLS {
+        font-size: 14px;
+        padding: 10px 20px;
+        margin: 4px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .buttonLogInLS {
+        font-size: 12px;
+        padding: 8px 15px;
+        margin: 4px 5px;
+    }
 }
 
 /* slut på knapp /*
