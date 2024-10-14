@@ -704,6 +704,34 @@ label.knapp-aj {
 
 /* SLUT | Event och evenemang (events.html) Olle */
 
+/*anmälningsformulär tävlingar,evenamang och resultat/Anton */
+
+.contest-sign-up {
+    color: #55552b;
+    border: 3px solid #55552b;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    width: 70%;
+}
+
+#contest-aj {
+    background-color: #e5e5cc;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 1em;
+    border-radius: 50px;
+    border: none;
+    box-shadow: inset 2px 4px 9px #0000007a, inset -2px -4px 9px #0000003e
+}
+
+#resultat-aj {
+    background-color: #e5e5cc;
+    margin-bottom: 2em;
+}
+
+/* slut på anmälningsformulär tävlingar,evenamang och resultat/Anton */
+
 /* start Om oss- rama */
 
 .ra-new-image {
