@@ -976,6 +976,96 @@ label.knapp-aj {
 }
 /*Inloggningsförmuläret slut - Batool*/
 
+.menu-board-of {
+    position: relative;
+    display: flex;
+    margin: auto;
+    width: 800px;
+}
 
+.board-top-of {
+    position: absolute;
+    top: 0;
+    height: 20px;
+    width: 100%;
+    background: rgb(82, 51, 23);
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        calc(100% - 20px) 100%,
+        20px 100%
+    );
+}
+
+.board-bot-of {
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    background: rgb(82, 51, 23);
+    clip-path: polygon(
+        20px 0,
+        calc(100% - 20px) 0,
+        100% 100%,
+        0 100%
+    );
+}
+
+.board-right-of {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 20px;
+    background: rgb(102, 60, 23);
+    clip-path: polygon(
+        0 20px,
+        100% 0,
+        100% 100%,
+        0 calc(100% - 20px)
+    );
+}
+
+.board-left-of {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 20px;
+    background: rgb(102, 60, 23);
+    clip-path: polygon(
+        0 0,
+        100% 20px,
+        100% calc(100% - 20px),
+        0 100%
+    );
+}
+
+.menu-options-of {
+    margin: 20px;
+    background-image: radial-gradient(rgb(39, 39, 39), black);
+    width: calc(100% - 40px);
+    font-family: "Fredericka the Great", serif;
+    color: white;
+    text-align: center;
+}
+
+.menu-board-of h2 {
+    font-size: 2.5rem;
+    margin: 0.5rem 0 1rem;
+}
+
+.menu-board-of h3 {
+    font-size: 2rem;
+    margin: 0 0 1rem;
+}
+
+.menu-board-of ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-board-of ul:last-child {
+    margin-bottom: 0.5rem;
+}
 
 
