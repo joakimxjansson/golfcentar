@@ -976,6 +976,7 @@ label.knapp-aj {
 }
 /*Inloggningsförmuläret slut - Batool*/
 
+/*START Mat meny - Olle */
 .menu-board-of {
     position: relative;
     display: flex;
@@ -1067,5 +1068,5 @@ label.knapp-aj {
 .menu-board-of ul:last-child {
     margin-bottom: 0.5rem;
 }
-
+/*SLUT Mat meny - Olle */
 
