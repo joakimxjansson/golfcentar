@@ -1070,6 +1070,75 @@ label.knapp-aj {
 }
 /*SLUT Mat meny - Olle */
 
+/*shoppen - Sandra*/
+
+.shopcontainer-st {
+    display: flex;
+    flex-direction: column;
+    background-color: #bbbb77;
+    border: 3px solid #55552b;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem;
+}
+
+.shopbox1-st {
+    background-color: #e5e5cc;
+     border: 0.5rem solid #55552b;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.h2shop-st {
+    background-color: #bbbb77;
+    border: 0.5rem solid #e5e5cc;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.shopboxcontainer-st {
+    background-color: #55552b;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.shopbox2-st {
+    background-color: #e5e5cc;
+    border: 0.5rem solid #bbbb77;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.shopbox3-st {
+    background-color: #e5e5cc;
+    border: 0.5rem solid #bbbb77;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.shopbox4-st {
+    background-color: #e5e5cc;
+    border: 0.5rem solid #bbbb77;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.shopbox5-st {
+    background-color: #e5e5cc;
+    border: 0.5rem solid #bbbb77;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+/*SLUT shoppen - Sandra*/
+
+
 /*Betalningsmetoder - Ali*/
 .payment-methods {
     background-color: #bbbb77;
@@ -1122,22 +1191,18 @@ label.knapp-aj {
 /* Slut - Betalningsmetoder - Ali*/
 
 /* Öppettider start/ Batool*/
-      .main-body {
-            display: flex;
-            justify-content: center; 
-            align-items: center; 
-            height: 100vh; 
-        }
 
        .opening-hours {
             padding: 30px; 
             width: 90%; 
+            margin: auto;
             max-width: 500px; 
             background-color: rgba(187, 187, 119, 0.9);
             border-radius: 20px;
             text-align: center;
             box-sizing: border-box;
             border: 2px solid #000; 
+            margin-bottom: 20px;
         }
 
         .title {
