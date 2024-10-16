@@ -1121,3 +1121,62 @@ label.knapp-aj {
 }
 /* Slut - Betalningsmetoder - Ali*/
 
+/* Öppettider start/ Batool*/
+      .main-body {
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+        }
+
+       .opening-hours {
+            padding: 30px; 
+            width: 90%; 
+            max-width: 500px; 
+            background-color: rgba(187, 187, 119, 0.9);
+            border-radius: 20px;
+            text-align: center;
+            box-sizing: border-box;
+            border: 2px solid #000; 
+        }
+
+        .title {
+            color: #44442a;
+            font-size: 32px; 
+            margin-bottom: 20px; 
+        }
+
+        .description {
+            color: #44442a;
+            font-size: 20px; 
+            margin: 10px 0;
+        }
+
+        .hours-table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        .hours-table th, .hours-table td {
+            padding: 12px; 
+            text-align: left;
+            border: 1px solid #ccc;
+            background-color: #b0b07b;
+            color: #44442a;
+            border-radius: 5px;
+        }
+
+        .hours-table th {
+            background-color: #44442a;
+            color: white;
+        }
+
+        .note {
+            color: #44442a;
+            font-size: 18px; 
+            margin-top: 20px; 
+        }
+/* Öppettider slut/ Batool*/
+
+
