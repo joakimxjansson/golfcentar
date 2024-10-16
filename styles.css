@@ -742,7 +742,7 @@ label.knapp-aj {
 
 /*anmälningsformulär tävlingar,evenamang och resultat/Anton */
 
-.contest-sign-up {
+.contest-sign-up-aj {
     color: #55552b;
     border: 3px solid #55552b;
     margin-left: auto;
@@ -1069,4 +1069,55 @@ label.knapp-aj {
     margin-bottom: 0.5rem;
 }
 /*SLUT Mat meny - Olle */
+
+/*Betalningsmetoder - Ali*/
+.payment-methods {
+    background-color: #bbbb77;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.payment-methods h3 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.payment-methods p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.payment-methods ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.payment-methods ul li {
+    font-size: 16px;
+    color: #555;
+    background-color: #e5e5cc;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.payment-methods ul li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.payment-methods ul li strong {
+    color: #333;
+}
+/* Slut - Betalningsmetoder - Ali*/
 
