@@ -1191,22 +1191,18 @@ label.knapp-aj {
 /* Slut - Betalningsmetoder - Ali*/
 
 /* Öppettider start/ Batool*/
-      .main-body {
-            display: flex;
-            justify-content: center; 
-            align-items: center; 
-            height: 100vh; 
-        }
 
        .opening-hours {
             padding: 30px; 
             width: 90%; 
+            margin: auto;
             max-width: 500px; 
             background-color: rgba(187, 187, 119, 0.9);
             border-radius: 20px;
             text-align: center;
             box-sizing: border-box;
             border: 2px solid #000; 
+            margin-bottom: 15px;
         }
 
         .title {
