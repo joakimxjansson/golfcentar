@@ -75,12 +75,14 @@
 
 
     <!-- Bokningsformulär - Ra -->
+<!-- Bokningsformulär - Ra -->
+
     <section class="Ra-page-style">
         <div class="Ra-container-style">
-            <h2 class="Ra-header-style"> Boka Starttid</h2>
+            <h2 class="Ra-header-style">Boka Starttid</h2>
             <div class="Ra-form-group-style">
-                <label class="ras-label-style" for="golfbana">Bana:</label>
-                <select class="ras-input-style" id="golfbana">
+                <label class="Ra-label-style" for="golfbana">Bana:</label>
+                <select class="Ra-input-style" id="golfbana">
                     <option>Jönköping Golfklubb</option>
                 </select>
             </div>
@@ -109,8 +111,8 @@
                         <th class="Ra-th-style">20:00</th>
                     </tr>
                 </thead>
-
                 <tbody>
+                    <!-- Tidsschemarader -->
                     <tr>
                         <td class="Ra-td-style">:00</td>
                         <td class="Ra-td-style Ra-available">Ledig</td>
@@ -125,69 +127,18 @@
                         <td class="Ra-td-style Ra-available">Ledig</td>
                         <td class="Ra-td-style Ra-available">Ledig</td>
                     </tr>
-
-                    <!-- :10 Intervall -->
-                    <tr>
-                        <td class="Ra-td-style">:10</td>
-                        <td class="Ra-td-style Ra-available">Ledig</td>
-                        <td class="Ra-td-style Ra-available">Ledig</td>
-                        <td class="Ra-td-style Ra-booked">Bokad</td>
-                        <td class="Ra-td-style Ra-available">Ledig</td>
-                        <td class="Ra-td-style Ra-booked">Bokad</td>
-                        <td class="Ra-td-style Ra-available">Ledig</td>
-                        <td class="Ra-td-style Ra-booked">Bokad</td>
-                        <td class="Ra-td-style Ra-available">Ledig</td>
-                        <td class="Ra-td-style Ra-booked">Bokad</td>
-                        <td class="ras-td-style Ra-available">Ledig</td>
-                        <td class="ras-td-style Ra-available">Ledig</td>
-                    </tr>
-                    <!-- :20 Intervall -->
-                    <tr>
-                        <td class="Ra-td-style">:20</td>
-                        <td class="Ra-td-style Ra-booked">Bokad</td>
-                        <td class="Ra-td-style Ra-available">Ledig</td>
-                        <td class="Ra-td-style Ra-booked">Bokad</td>
-                        <td class="Ra-td-style Ra-available">Ledig</td>
-                        <td class="Ra-td-style Ra-booked">Bokad</td>
-                        <td class="Ra-td-style Ra-available">Ledig</td>
-                        <td class="Ra-td-style Ra-available">Ledig</td>
-                        <td class="Ra-td-style Ra-booked">Bokad</td>
-                        <td class="Ra-td-style Ra-available">Ledig</td>
-                        <td class="Ra-td-style Ra-booked">Bokad</td>
-                        <td class="Ra-td-style Ra-available">Ledig</td>
-                    </tr>
-                    <!-- :30 Intervall -->
-                    <tr>
-                        <td class="Ra-td-style">:30</td>
-                        <td class="Ra-td-style Ra-available">Ledig</td>
-                        <td class="Ra-td-style Ra-booked">Bokad</td>
-                        <td class="Ra-td-style Ra-available">Ledig</td>
-                        <td class="Ra-td-style Ra-booked">Bokad</td>
-                        <td class="Ra-td-style Ra-available">Ledig</td>
-                        <td class="Ra-td-style Ra-booked">Bokad</td>
-                        <td class="Ra-td-style Ra-available">Ledig</td>
-                        <td class="Ra-td-style Ra-available">Ledig</td>
-                        <td class="Ra-td-style Ra-booked">Bokad</td>
-                        <td class="Ra-td-style Ra-available">Ledig</td>
-                        <td class="Ra-td-style Ra-available">Ledig</td>
-                    </tr>
-
-                    <!-- Fler rader om nödvändigt -->
+                    <!-- Fler rader -->
                 </tbody>
             </table>
-            <button class="ras-button-style" onclick="confirmBooking()">Boka nu</button>
+            <button class="Ra-button-style" onclick="confirmBooking()">Boka nu</button>
         </div>
     </section>
     <!-- Bokningsformulär slut -->
     <script>
-
         function confirmBooking() {
-
             alert("Din bokning har registrerats!");
-
         }
     </script>
-
 
 
 
