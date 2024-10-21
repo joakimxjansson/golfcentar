@@ -428,7 +428,13 @@ iframe {
 
 /*Boka - Rama*/
 
-/* Allmän stil för hela sidan */
+
+/* Box-sizing för att säkerställa att padding inte överskrider bredden */
+* {
+    box-sizing: border-box;
+}
+
+/* Grundläggande stil för hela sidan */
 .Ra-page-style {
     background-color: #e5e5cc;
     font-family: Arial, sans-serif;
@@ -437,34 +443,20 @@ iframe {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    max-width: 100vw;
+    overflow-x: hidden;
 }
 
-/* Stil för rubriker */
-.Ra-header-style {
-    text-align: center;
-    color: #55552b;
-}
-
-/* Konteinerstil för formulär */
+/* Containerstil för formulär */
 .Ra-container-style {
-    width: 70%;
+    width: 100%;
+    max-width: 700px; /* Begränsar maxbredd för att det ska passa på alla skärmar */
     margin-bottom: 2em;
     padding: 20px;
     background-color: #bbbb77;
     border-radius: 15px;
     border: 3px solid #55552b;
-}
-
-/* Stil för formulärgrupper */
-.Ra-form-group-style {
-    margin-bottom: 20px;
-    padding-right: 2em;
-    padding-left: 2em;
-}
-
-/* Stil för etiketter */
-.Ra-label-style {
-    font-weight: bold;
+    overflow-x: auto; /* Gör att innehållet kan skrollas horisontellt på små skärmar */
 }
 
 /* Stil för inputfält (inklusive datumväljare) */
@@ -483,6 +475,7 @@ iframe {
     border-collapse: collapse;
     margin-top: 20px;
     background-color: #bbbb77;
+    overflow-x: auto;
 }
 
 .Ra-table-style, .Ra-th-style, .Ra-td-style {
@@ -527,18 +520,12 @@ iframe {
     background-color: #66663a;
 }
 
-/* Media  för responsiv design */
+/* Media queries för mindre skärmar */
 @media (max-width: 768px) {
     .Ra-container-style {
-        width: 90%;
+        width: 100%;
+        padding: 15px;
     }
-    .Ra-form-group-style {
-        padding-right: 1em;
-        padding-left: 1em;
-    }
-}
-
-@media (max-width: 480px) {
     .Ra-input-style {
         font-size: 14px;
         padding: 8px;
@@ -548,6 +535,24 @@ iframe {
         padding: 8px;
     }
 }
+
+@media (max-width: 480px) {
+    .Ra-container-style {
+        padding: 10px;
+    }
+    .Ra-input-style {
+        font-size: 12px;
+        padding: 6px;
+    }
+    .Ra-button-style {
+        font-size: 12px;
+        padding: 6px;
+    }
+    .Ra-table-style {
+        font-size: 12px;
+    }
+}
+
 
 /*Boka- Rama */ 
 
