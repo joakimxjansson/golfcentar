@@ -432,7 +432,6 @@ iframe {
     background-color: #e5e5cc;
     font-family: Arial, sans-serif;
     color: #55552b;
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -442,14 +441,17 @@ iframe {
     color: #55552b;
  }
  .Ra-container-style {
-    max-width: 800px;
-    margin: 20px auto;
+    width: 70%;
+    margin-bottom: 2em;
     padding: 20px;
     background-color: #bbbb77;
-    border-radius: 10px;
+    border-radius: 15px;
+    border: 3px solid #55552b;
  }
  .Ra-form-group-style {
     margin-bottom: 20px;
+    padding-right: 2em;
+    padding-left: 2em;
  }
  .Ra-label-style {
     font-weight: bold;
@@ -508,11 +510,15 @@ iframe {
 }
 
 .bokning-content-st {
+    width: 70%;
     background-color: #bbbb77;
-    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 5px 5px #55552b;
+    border: 3px solid #55552b;
 }
 
 .bokning1-st {
