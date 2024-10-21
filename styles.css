@@ -428,6 +428,7 @@ iframe {
 
 /*Boka - Rama*/
 
+/* Allmän stil för hela sidan */
 .Ra-page-style {
     background-color: #e5e5cc;
     font-family: Arial, sans-serif;
@@ -435,60 +436,82 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
- }
- .Ra-header-style {
+    padding: 20px;
+}
+
+/* Stil för rubriker */
+.Ra-header-style {
     text-align: center;
     color: #55552b;
- }
- .Ra-container-style {
+}
+
+/* Konteinerstil för formulär */
+.Ra-container-style {
     width: 70%;
     margin-bottom: 2em;
     padding: 20px;
     background-color: #bbbb77;
     border-radius: 15px;
     border: 3px solid #55552b;
- }
- .Ra-form-group-style {
+}
+
+/* Stil för formulärgrupper */
+.Ra-form-group-style {
     margin-bottom: 20px;
     padding-right: 2em;
     padding-left: 2em;
- }
- .Ra-label-style {
+}
+
+/* Stil för etiketter */
+.Ra-label-style {
     font-weight: bold;
- }
- .Ra-input-style {
+}
+
+/* Stil för inputfält (inklusive datumväljare) */
+.Ra-input-style {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
     font-size: 16px;
     border: 1px solid #55552b;
     border-radius: 5px;
- }
- .Ra-table-style {
+}
+
+/* Stil för tabeller */
+.Ra-table-style {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
     background-color: #bbbb77;
- }
- .Ra-table-style, .Ra-th-style, .Ra-td-style {
+}
+
+.Ra-table-style, .Ra-th-style, .Ra-td-style {
     border: 1px solid #55552b;
- }
- .Ra-th-style, .Ra-td-style {
+}
+
+.Ra-th-style, .Ra-td-style {
     padding: 10px;
     text-align: center;
- }
- .Ra-th-style {
+}
+
+.Ra-th-style {
     background-color: #55552b;
     color: white;
- }
- .Ra-available {
+}
+
+/* Tillgängliga tider */
+.Ra-available {
     background-color: #ccffcc;
- }
- .Ra-booked {
+}
+
+/* Bokade tider */
+.Ra-booked {
     background-color: #ffcccc;
     cursor: not-allowed;
- }
- .Ra-button-style {
+}
+
+/* Stil för knappen */
+.Ra-button-style {
     width: 100%;
     padding: 10px;
     background-color: #55552b;
@@ -498,10 +521,34 @@ iframe {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
- }
- .Ra-button-style:hover {
+}
+
+.Ra-button-style:hover {
     background-color: #66663a;
- }
+}
+
+/* Media  för responsiv design */
+@media (max-width: 768px) {
+    .Ra-container-style {
+        width: 90%;
+    }
+    .Ra-form-group-style {
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .Ra-input-style {
+        font-size: 14px;
+        padding: 8px;
+    }
+    .Ra-button-style {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
 /*Boka- Rama */ 
 
 /*Greenfee och bokning - Sandra*/
