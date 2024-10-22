@@ -128,9 +128,7 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
 }
 
 .landing-p {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
+    padding: 0px
 }
 
 .landingp-container {
@@ -139,7 +137,8 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
     flex-direction: column;
     align-items: center;
     justify-content: center;  
-    margin-top: 5%;
+    margin: 0;
+    padding: 1rem; 
 }
 
 
@@ -183,14 +182,16 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0;
     background-color: #bbbb77;
-    color: #e5e5cc;
-    width: 40%;
-    height: 600px;
-    padding: 20px;
-    font-size: 20px;
-    text-align: center;  
+    color: #55552b;
+    width: 80%;
+    height: auto;
+    padding: 2rem;
+    font-size: 1.2rem;
+    text-align: center; 
+    border-radius: 30px;
+    border: 3px solid #55552b;
     
 }
 
@@ -198,8 +199,11 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 80%;
+    width: 100%;
     height: auto;
+    padding: 1rem;
+    border-radius: 30px;
+
 }
 
 
@@ -213,7 +217,6 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
     align-items: center;
     padding-left: 1em;
     padding-right: 1em;
-    
     border-radius: 30px;
     
 }
@@ -1358,3 +1361,85 @@ label.knapp-aj {
         
     }
 } 
+
+/*Media Querie för Landingpage - Sandra*/
+@media (max-width: 992px) {
+.landingp-container {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem; 
+}
+
+.landingp-box {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+
+    
+}
+    
+.landingp-img {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+}
+    
+
+.index-content-of {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+/* Index Nyheter och updateringar */
+
+.index-side-of {
+    max-width: 77%;
+    min-width: 200px;
+    margin-bottom: 1.5rem;
+}
+    
+}
+
+@media (max-width: 600px) {
+.landingp-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem; 
+}
+
+.landingp-box {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;   
+    margin-top: 10px; 
+}
+    
+.landingp-img {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    padding: 0;
+}
+    
+
+.index-content-of {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.index-side-of {
+    max-width: 94%;
+    margin-bottom: 1.5rem;
+}
+    
+}
+/*Media Querie för Landingpage SLUT- Sandra*/
