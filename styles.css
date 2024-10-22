@@ -5,7 +5,6 @@ body {
     padding: 0;
     justify-content: center;
     align-items: center;
-    
     min-height: 100vh;
     background-color: #e5e5cc;;
 
@@ -15,15 +14,13 @@ header {
     flex-direction: row;
     justify-items: space-between;
     align-items: center;
-    
     justify-content: center;
-    background-color: #55552b;
-
-    
+    background-color: #55552b; 
 }
 .logo { 
     width: 200px;
 margin-right: auto;
+
 
 }
 
@@ -1476,10 +1473,6 @@ label.knapp-aj {
     height: 100%;
     align-items: flex-end;
     
-   
-    
-    
-    
     
     
 }
@@ -1545,12 +1538,13 @@ label.knapp-aj {
     text-decoration: none; 
     background-color: #e5e5cc;
     width: 100vh;
+    z-index: 2;
     
 }
 .menu ul {
-    
     margin: 0;
-    padding: 0; 
+    padding: 0;
+    
     
 }
 
@@ -1559,6 +1553,7 @@ label.knapp-aj {
     border-bottom: 1px solid #ccc;
     text-decoration: none; 
     list-style-type: none; 
+    
     
 
     
@@ -1572,9 +1567,11 @@ label.knapp-aj {
     border: 1px solid black; 
     
     
+    
+    
 }
 .menu li :hover { 
-    background-color: #7249e9;
+    background-color: #55552b;
 }
 
 }
