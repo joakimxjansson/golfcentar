@@ -5,6 +5,7 @@ body {
     padding: 0;
     justify-content: center;
     align-items: center;
+    
     min-height: 100vh;
     background-color: #e5e5cc;;
 
@@ -12,8 +13,9 @@ body {
 header {
     display: flex;
     flex-direction: row;
+    justify-items: space-between;
     align-items: center;
-    width: 100vw;
+    
     justify-content: center;
     background-color: #55552b;
 
@@ -119,6 +121,13 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
 }
 
 /* slut på knapp /*
+
+/* Hamburgermeny Joakim */
+
+.hamburgermeny {
+    display: none;
+}
+/* Slut på hamburgernmeny resten på media/*
 
 /*styling landingpage/Sandra*/
 
@@ -328,12 +337,14 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center; 
+   
     
     
 }
 .footercontent ul {
     display:flex;
     list-style: none;
+    flex-wrap: wrap;
     
     
 }
@@ -1297,4 +1308,131 @@ label.knapp-aj {
         }
 /* Öppettider slut/ Batool*/
 
+/* Media för hamburhermeny*/
+@media (max-width: 768px){
 
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        flex-wrap: wrap;
+        
+        
+    }
+    .navbar{ 
+        display: none;
+    }
+
+.hamburgermeny { 
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    align-items: flex-end;
+    
+   
+    
+    
+    
+    
+    
+}
+.checkbox-toggle { 
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+    z-index: 2;
+    cursor: pointer;
+    font-size: 50px;
+    margin-right:  30px;
+    margin-bottom: 30px;
+}
+
+.fa-bar-static, .fa-beat-fade{ 
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    margin-right:  30px;
+    margin-bottom: 30px;
+    
+
+    
+}
+
+
+.fa-beat-fade { 
+    visibility: hidden;
+
+}
+
+.hamburgermeny:hover .fa-bar-static {
+    visibility: hidden;
+    
+}
+
+.hamburgermeny:hover .fa-beat-fade {
+    visibility: visible;
+    
+}
+.menu { 
+    visibility: hidden;
+    position: absolute;
+    top: -20px;
+    text-align: center;
+    max-height: 0;
+    transition: max-height 0.3s linear;
+    opacity: 0;
+}
+.checkbox-toggle { 
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+#menu-toggle:checked ~ .menu { 
+    visibility: visible;
+    position: absolute;
+    max-height: 300px;      
+    opacity: 1;
+    overflow: hidden;
+    text-decoration: none; 
+    background-color: #e5e5cc;
+    width: 100vh;
+    
+}
+.menu ul {
+    
+    margin: 0;
+    padding: 0; 
+    
+}
+
+.menu ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none; 
+    list-style-type: none; 
+    
+
+    
+}
+
+.menu li a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    border: 1px solid black; 
+    
+    
+}
+.menu li :hover { 
+    background-color: #7249e9;
+}
+
+}
+*/* Slut på media för hamburgermeny/*
