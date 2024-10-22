@@ -369,9 +369,17 @@ footer{
 .kontakt-info {
     display: flex;
     justify-content: center; 
-    gap: 130px;
-    width: 70%; 
+    gap: 10%;
+    width:70%; 
     margin-bottom: 40px;
+}
+
+.kontakt-vanster {
+    width: 35%;
+}
+
+.kontakt-hoger {
+    width: 35%;
 }
 
 /*Karta*/
@@ -383,13 +391,14 @@ iframe {
 
 /*Formulär*/
 
-.form-container {
+.form-container-an {
     text-align: center;
     padding: 10px 25px;
     border: #55552b solid 2px;
     border-radius: 20px;
     background-color: #bbbb77;
     margin-bottom: 5rem;
+    margin-top: 1.5rem;
 }
 
 #email-an {
@@ -423,6 +432,33 @@ iframe {
     background-color: white;
     border: #55552b 1px solid;
     color: #55552b;
+}
+
+@media (max-width: 700px) {
+
+    .kontakt-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .kontakt-vanster {
+        text-align: center;
+        width: 100%;
+    }
+    .kontakt-hoger {
+        margin-top: -16px;
+        text-align: center;
+        width: 100%;
+    }
+    .form-container-an {
+        margin-bottom: 1rem;
+        margin-top: 0rem;
+    }
+}
+
+@media (max-width: 910px) {
+    .kontakt-info {
+        width:90%; 
+    }
 }
 
 
