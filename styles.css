@@ -857,7 +857,7 @@ label.knapp-aj {
     margin: 20px auto;
  }
  .ra-content {
-    max-width: 90%; /* Gör innehållet bredare */
+    max-width: 70%; /* Gör innehållet bredare */
     margin: 20px auto;
     padding: 20px;
     background-color: #bbbb77; /* Samma färg som i första designen */
