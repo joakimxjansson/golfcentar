@@ -39,7 +39,7 @@ flex-wrap: wrap;
 }
 
 /* Text /Linnea */
-.navbar a {
+.navbar a,  .navbar .dropdown{
 color: rgb(0, 0, 0);
 text-decoration: none;
 padding: 0.5rem 1rem;
