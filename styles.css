@@ -41,7 +41,7 @@ flex-wrap: wrap;
 }
 
 /* Text /Linnea */
-.navbar a {
+.navbar a,  .navbar .dropdown{
 color: rgb(0, 0, 0);
 text-decoration: none;
 padding: 0.5rem 1rem;
@@ -137,9 +137,7 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
 }
 
 .landing-p {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
+    padding: 0px
 }
 
 .landingp-container {
@@ -148,7 +146,8 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
     flex-direction: column;
     align-items: center;
     justify-content: center;  
-    margin-top: 5%;
+    margin: 0;
+    padding: 1rem; 
 }
 
 
@@ -192,14 +191,16 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0;
     background-color: #bbbb77;
-    color: #e5e5cc;
-    width: 40%;
-    height: 600px;
-    padding: 20px;
-    font-size: 20px;
-    text-align: center;  
+    color: #55552b;
+    width: 80%;
+    height: auto;
+    padding: 2rem;
+    font-size: 1.2rem;
+    text-align: center; 
+    border-radius: 30px;
+    border: 3px solid #55552b;
     
 }
 
@@ -207,8 +208,11 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 80%;
+    width: 100%;
     height: auto;
+    padding: 1rem;
+    border-radius: 30px;
+
 }
 
 
@@ -222,7 +226,6 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
     align-items: center;
     padding-left: 1em;
     padding-right: 1em;
-    
     border-radius: 30px;
     
 }
@@ -277,6 +280,7 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
     width: 100vw;
     justify-content: center;
     align-items: center;
+    align-items: flex-start;
 }
 
 /* Index Nyheter och updateringar */
@@ -372,9 +376,17 @@ footer{
 .kontakt-info {
     display: flex;
     justify-content: center; 
-    gap: 130px;
-    width: 70%; 
+    gap: 10%;
+    width:70%; 
     margin-bottom: 40px;
+}
+
+.kontakt-vanster {
+    width: 35%;
+}
+
+.kontakt-hoger {
+    width: 35%;
 }
 
 /*Karta*/
@@ -386,13 +398,14 @@ iframe {
 
 /*Formulär*/
 
-.form-container {
+.form-container-an {
     text-align: center;
     padding: 10px 25px;
     border: #55552b solid 2px;
     border-radius: 20px;
     background-color: #bbbb77;
     margin-bottom: 5rem;
+    margin-top: 1.5rem;
 }
 
 #email-an {
@@ -428,6 +441,33 @@ iframe {
     color: #55552b;
 }
 
+@media (max-width: 700px) {
+
+    .kontakt-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .kontakt-vanster {
+        text-align: center;
+        width: 100%;
+    }
+    .kontakt-hoger {
+        margin-top: -16px;
+        text-align: center;
+        width: 100%;
+    }
+    .form-container-an {
+        margin-bottom: 1rem;
+        margin-top: 0rem;
+    }
+}
+
+@media (max-width: 910px) {
+    .kontakt-info {
+        width:90%; 
+    }
+}
+
 
                                     /*Kontakt Adam*/
 
@@ -438,27 +478,33 @@ iframe {
 /* Box-sizing för att säkerställa att padding inte överskrider bredden */
 * {
     box-sizing: border-box;
-}
+} 
 
 /* Grundläggande stil för hela sidan */
 .Ra-page-style {
+    
+    width: 100%;
     background-color: #e5e5cc;
     font-family: Arial, sans-serif;
     color: #55552b;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    max-width: 100vw;
+    /* padding: 20px; */
+    /* max-width: 100vw; */
     overflow-x: hidden;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Containerstil för formulär */
 .Ra-container-style {
-    width: 100%;
-    max-width: 700px; /* Begränsar maxbredd för att det ska passa på alla skärmar */
+    width: 70%;
+    /* max-width: 700px; Begränsar maxbredd för att det ska passa på alla skärmar */
     margin-bottom: 2em;
-    padding: 20px;
+    
+    padding: 1em;
     background-color: #bbbb77;
     border-radius: 15px;
     border: 3px solid #55552b;
@@ -468,11 +514,18 @@ iframe {
 /* Stil för inputfält (inklusive datumväljare) */
 .Ra-input-style {
     width: 100%;
-    padding: 10px;
+    padding: 0.5em;
+    
     margin-top: 5px;
     font-size: 16px;
     border: 1px solid #55552b;
     border-radius: 5px;
+}
+
+.Ra-form-group-style {
+    width: 100%;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 /* Stil för tabeller */
@@ -526,38 +579,7 @@ iframe {
     background-color: #66663a;
 }
 
-/* Media queries för mindre skärmar */
-@media (max-width: 768px) {
-    .Ra-container-style {
-        width: 100%;
-        padding: 15px;
-    }
-    .Ra-input-style {
-        font-size: 14px;
-        padding: 8px;
-    }
-    .Ra-button-style {
-        font-size: 14px;
-        padding: 8px;
-    }
-}
 
-@media (max-width: 480px) {
-    .Ra-container-style {
-        padding: 10px;
-    }
-    .Ra-input-style {
-        font-size: 12px;
-        padding: 6px;
-    }
-    .Ra-button-style {
-        font-size: 12px;
-        padding: 6px;
-    }
-    .Ra-table-style {
-        font-size: 12px;
-    }
-}
 
 
 /*Boka- Rama */ 
@@ -841,7 +863,7 @@ label.knapp-aj {
     margin: 20px auto;
  }
  .ra-content {
-    max-width: 90%; /* Gör innehållet bredare */
+    max-width: 70%; /* Gör innehållet bredare */
     margin: 20px auto;
     padding: 20px;
     background-color: #bbbb77; /* Samma färg som i första designen */
@@ -912,7 +934,7 @@ label.knapp-aj {
         .sectionBF {
             margin: 40px auto;
             padding: 30px;
-            max-width: 1200px;
+            max-width: 70%;
             background-color: #bbbb77;
             box-shadow: 0 6px 15px #ebebb1;
             border-radius: 10px;
@@ -1139,11 +1161,12 @@ label.knapp-aj {
 .shopcontainer-st {
     display: flex;
     flex-direction: column;
+    width: 70%;
     background-color: #bbbb77;
     border: 3px solid #55552b;
     border-radius: 10px;
-    padding: 1.5rem;
-    margin: 1rem;
+    padding: 1rem;
+    margin: 20px auto;
 }
 
 .shopbox1-st {
@@ -1308,6 +1331,126 @@ label.knapp-aj {
         }
 /* Öppettider slut/ Batool*/
 
+/* Media queries för mindre skärmar Rama */
+@media (max-width: 768px) {
+    .Ra-container-style {
+        
+        padding: 15px;
+    }
+    .Ra-input-style {
+        font-size: 14px;
+        padding: 8px;
+    }
+    .Ra-button-style {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Ra-container-style {
+        width: 90%;
+        padding: 10px;
+    }
+    .Ra-input-style {
+        font-size: 12px;
+        padding: 6px;
+    }
+    .Ra-button-style {
+        font-size: 12px;
+        padding: 6px;
+    }
+    .Ra-table-style {
+        font-size: 12px;
+    }
+
+    .bokning-content-st {
+        width: 90%;
+        
+    }
+} 
+
+/*Media Querie för Landingpage - Sandra*/
+@media (max-width: 992px) {
+.landingp-container {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem; 
+}
+
+.landingp-box {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+
+    
+}
+    
+.landingp-img {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+}
+    
+
+.index-content-of {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+/* Index Nyheter och updateringar */
+
+.index-side-of {
+    max-width: 77%;
+    min-width: 200px;
+    margin-bottom: 1.5rem;
+}
+    
+}
+
+@media (max-width: 600px) {
+.landingp-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem; 
+}
+
+.landingp-box {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;   
+    margin-top: 10px; 
+}
+    
+.landingp-img {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    padding: 0;
+}
+    
+
+.index-content-of {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.index-side-of {
+    max-width: 94%;
+    margin-bottom: 1.5rem;
+}
+    
+}
+/*Media Querie för Landingpage SLUT- Sandra*/
 /* Media för hamburhermeny*/
 @media (max-width: 768px){
 
