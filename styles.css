@@ -316,15 +316,10 @@ img.news-image {
 /* Footer content nedan*/
 footer{ 
     background-color: #55552b;
-    
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
-
- 
 
 }
 
