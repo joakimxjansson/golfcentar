@@ -276,6 +276,7 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
     flex-direction: row;
     width: 100vw;
     justify-content: center;
+    
     align-items: flex-start;
 }
 
@@ -1343,12 +1344,18 @@ iframe {
 
 /*Media Querie för Landingpage - Sandra*/
 @media (max-width: 992px) {
+
+.index-content-of {
+    align-items: center;
+}  
+
 .landingp-container {
 
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 1rem; 
+
 }
 
 .landingp-box {
@@ -1372,6 +1379,7 @@ iframe {
     display: flex;
     flex-direction: column;
     width: 100vw;
+    
 }
 
 /* Index Nyheter och updateringar */
@@ -1385,19 +1393,27 @@ iframe {
 }
 
 @media (max-width: 600px) {
+
+.index-content-of {
+    align-items: center;
+}  
+
 .landingp-container {
+
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 1rem; 
+
 }
 
 .landingp-box {
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 100%;   
-    margin-top: 10px; 
+    width: 80%;
+
+    
 }
     
 .landingp-img {
@@ -1405,23 +1421,27 @@ iframe {
     flex-direction: column;
     margin: auto;
     width: 100%;
-    padding: 0;
 }
     
 
 .index-content-of {
     display: flex;
     flex-direction: column;
+    width: 100vw;
+    
 }
 
+/* Index Nyheter och updateringar */
 
 .index-side-of {
-    max-width: 94%;
+    max-width: 77%;
+    min-width: 200px;
     margin-bottom: 1.5rem;
 }
     
 }
 /*Media Querie för Landingpage SLUT- Sandra*/
+
 /* Media för hamburhermeny*/
 @media (max-width: 768px){
 
