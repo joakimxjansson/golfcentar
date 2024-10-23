@@ -276,7 +276,6 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
     flex-direction: row;
     width: 100vw;
     justify-content: center;
-    align-items: center;
     align-items: flex-start;
 }
 
