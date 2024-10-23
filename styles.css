@@ -1216,12 +1216,15 @@ iframe {
 
 /*Betalningsmetoder - Ali*/
 .payment-methods {
+    width: 35%;
     background-color: #bbbb77;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     max-width: 800px;
-    margin: 20px auto;
+    /* margin: 20px auto; */
+    margin-left: auto;
+    margin-right: 1em;
 }
 
 .payment-methods h3 {
@@ -1269,15 +1272,16 @@ iframe {
 
        .opening-hours {
             padding: 30px; 
-            width: 90%; 
-            margin: auto;
-            max-width: 500px; 
+            width: 34%; 
+            /* margin: auto; */
+            max-width: 800px;
+            margin-right: auto;
             background-color: rgba(187, 187, 119, 0.9);
             border-radius: 20px;
             text-align: center;
             box-sizing: border-box;
             border: 2px solid #000; 
-            margin-bottom: 20px;
+            /* margin-bottom: 20px; */
 
         }
 
@@ -1319,6 +1323,45 @@ iframe {
             margin-top: 20px; 
         }
 /* Öppettider slut/ Batool*/
+
+.shop-wrapper-aj {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+/* Media queries för shopwrapper/anton */
+@media (max-width: 1300px) {
+    .shop-wrapper-aj {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .opening-hours {
+        max-width: none;
+        margin-right: 0;
+        width: 70%;
+    }
+    .payment-methods {
+        max-width: none;
+        margin-bottom: 1em;
+        margin-left: 0;
+        width: 70%;
+    }
+}
+@media (max-width: 768px) {
+    .payment-methods {
+        width: 90%;
+    }
+    .opening-hours {
+        width: 90%;
+    }
+    .shopcontainer-st {
+        width: 90%;
+    }
+}
 
 /* Media queries för mindre skärmar Rama */
 @media (max-width: 768px) {
