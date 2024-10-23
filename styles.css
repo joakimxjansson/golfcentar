@@ -37,6 +37,7 @@ margin-right: auto;
 flex-wrap: wrap;
 }
 
+
 /* Text /Linnea */
 .navbar a,  .navbar .dropdown{
 color: #55552b;
@@ -140,6 +141,7 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
 
 .landingp-container {
     
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -276,7 +278,7 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
 .index-content-of {
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
     
     align-items: flex-start;
@@ -292,6 +294,7 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
     border-radius: 30px;
     background-color:#bbbb77;
     box-shadow: 0 4px 10px #ebebb1;
+    margin: 10px 10px 10px 0px
 }
 
 .centerd-display {
@@ -1444,7 +1447,7 @@ iframe {
 .index-content-of {
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
     align-items: center;
 }
 
@@ -1454,6 +1457,7 @@ iframe {
     max-width: 77%;
     min-width: 200px;
     margin-bottom: 1.5rem;
+    
 }
     
 }
