@@ -974,8 +974,8 @@ iframe {
 
 .login-formBF {
     padding: 40px;
-    width: 100%;
-    max-width: 450px;
+    width: 70%;
+    max-width: 500px;
     background-color: rgba(187, 187, 119, 0.9); 
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
     border-radius: 20px;
@@ -984,6 +984,7 @@ iframe {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
+    margin-top: 2em;
 }
 
 .inputBF {
@@ -1560,3 +1561,24 @@ cursor: default;
 }
 }
 /* Slut på media för hamburgermeny/*
+
+/* media för medlemssektion och event/ Anton*/
+@media (max-width: 768px) {
+    .login-formBF {
+        width: 90%;
+    }
+
+    .formaner-aj {
+        width: 90%;
+    }
+    .contest-sign-up-aj {
+        width: 100%;
+    }
+
+    .eventform-aj {
+        width: 90%;
+    }
+
+}
+
+/* Slut på media för medlemssektion och event*/
