@@ -637,7 +637,7 @@ iframe {
 /* Huvudinnehåll */
 #membership {
     width:700px;
-    margin: 20px auto;
+    margin: 0 px auto;
     padding: 20px;
     background-color: #bbbb77;
     border-radius: 8px;
