@@ -899,7 +899,7 @@ iframe {
 
 /*Historian start - Batool*/
 
-     .bodyBF {
+          .bodyBF {
             margin: 0;
             padding: 0;
             background-color: #b0b07b;
@@ -918,12 +918,13 @@ iframe {
 
         .sectionBF {
             margin: 40px auto;
-            padding: 30px;
-            max-width: 70%;
+            padding: 65px;
+            max-width: 1200px;
             background-color: #bbbb77;
             box-shadow: 0 6px 15px #ebebb1;
             border-radius: 10px;
             line-height: 1.8;
+            border: 3px solid #55552b;
         }
 
         .h2BF {
@@ -963,23 +964,24 @@ iframe {
             display: flex;
             justify-content: center;
             gap: 20px;
-        
+            flex-wrap: wrap; 
         }
-
+        
         .image-itemBF {
-            text-align: center; 
-        
+            text-align: center;
+            flex: 1 1 300px; 
         }
-
+        
         .image-itemBF img {
-           width: 700px;
-           height: 350;;
+            width: 100%; 
+            max-width: 500px; 
+            height: auto; 
             border-radius: 10px;
             box-shadow: 0 4px 10px #ebebb1;
         }
-
+        
         .image-itemBF h3 {
-            margin-top: 10px; 
+            margin-top: 10px;
             font-size: 20px;
             color: #55552b;
         }
