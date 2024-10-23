@@ -1409,11 +1409,6 @@ iframe {
 
 /*Media Querie för Landingpage - Sandra*/
 @media (max-width: 992px) {
-
-.index-content-of {
-    align-items: center;
-}  
-
 .landingp-container {
 
     display: flex;
@@ -1444,56 +1439,7 @@ iframe {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    
-}
-
-/* Index Nyheter och updateringar */
-
-.index-side-of {
-    max-width: 77%;
-    min-width: 200px;
-    margin-bottom: 1.5rem;
-}
-    
-}
-
-@media (max-width: 600px) {
-
-.index-content-of {
     align-items: center;
-}  
-
-.landingp-container {
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 1rem; 
-
-}
-
-.landingp-box {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 80%;
-
-    
-}
-    
-.landingp-img {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 100%;
-}
-    
-
-.index-content-of {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    
 }
 
 /* Index Nyheter och updateringar */
@@ -1504,6 +1450,33 @@ iframe {
     margin-bottom: 1.5rem;
 }
     
+}
+
+@media (max-width: 768px) {
+    .landingp-container {
+        max-width: 100%;
+        padding: 0 0 1rem 0;
+        width: 100%;
+    }
+
+    .landingp-box {
+        margin: 0;
+        max-width: 90%;
+        width: 90%;
+    }
+        
+    .landingp-img {
+        margin: 1rem auto;
+        padding: 0;
+        max-width: 90%;
+        width: 90%;
+    }
+
+    /* Index Nyheter och updateringar */
+
+    .index-side-of {
+        max-width: 90%;
+    }   
 }
 /*Media Querie för Landingpage SLUT- Sandra*/
 
