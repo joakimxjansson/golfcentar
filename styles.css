@@ -696,6 +696,10 @@ iframe {
     border-radius: 25px;
 }
 
+.formaner-container-aj li {
+    margin-bottom: 1em;
+}
+
 #medlemsformaner-aj {
     text-align: center;
     border: 0px solid black;
