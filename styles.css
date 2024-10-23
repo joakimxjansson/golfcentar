@@ -652,7 +652,7 @@ iframe {
 .membership-types {
     display: grid;
     color: #55552b;
-    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
     margin-top: 20px; 
 }
