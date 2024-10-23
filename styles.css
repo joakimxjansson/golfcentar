@@ -635,6 +635,7 @@ iframe {
 
 
 /* Huvudinnehåll */
+@media (max-width: 768px){
 #membership {
     max-width:700px;
     margin: 20px auto;
