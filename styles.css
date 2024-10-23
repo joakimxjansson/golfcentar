@@ -963,15 +963,17 @@ iframe {
             display: flex;
             justify-content: center;
             gap: 20px;
+            flex-wrap: wrap;
         }
 
         .image-itemBF {
             text-align: center; 
+            flex: 1 1 300px;
         }
 
         .image-itemBF img {
-            width: 500px;
-            height: 350px;
+           width: 700px;
+           height: 35px;;
             border-radius: 10px;
             box-shadow: 0 4px 10px #ebebb1;
         }
