@@ -1318,13 +1318,20 @@ iframe {
         font-size: 14px;
         padding: 8px;
     }
-}
 
-@media (max-width: 480px) {
+    .bokning-content-st {
+        width: 90%;
+        
+    }
+
     .Ra-container-style {
         width: 90%;
         padding: 10px;
     }
+}
+
+@media (max-width: 480px) {
+    
     .Ra-input-style {
         font-size: 12px;
         padding: 6px;
@@ -1337,10 +1344,6 @@ iframe {
         font-size: 12px;
     }
 
-    .bokning-content-st {
-        width: 90%;
-        
-    }
 } 
 
 /*Media Querie för Landingpage - Sandra*/
