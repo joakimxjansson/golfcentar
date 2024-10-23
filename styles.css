@@ -88,7 +88,7 @@ background-color: #bbbb77;
 /* LOG IN KNAPP /Linnea*/
 .buttonLogInLS {
 border: none;
-background-color: rgb(255, 255, 255);
+background-color: #e5e5cc;
 padding: 15px 25px;
 text-align: center;
 text-decoration: none;
@@ -411,11 +411,14 @@ iframe {
     color: #55552b;
 }
 
+#dinepost-an {
+    font-size: 14px;
+}
+
 #email-an {
-    margin-top: 15px;
     padding-left: 12px;
     background-color: #e5e5cc;
-    width: 65%;
+    width: 80%;
     height: 35px;
     border-radius: 50px;
     border: none;
@@ -425,23 +428,23 @@ iframe {
 /*submit knapp*/
 
 #submit-an {
-    color: white;
+    color: #55552b;
     font-size: 15px;
+    font-weight: 800;
     letter-spacing: 1px;
     padding: 12px 20px;
     margin: 20px auto 35px;
-    background-color: #55552b;
+    background-color: #e5e5cc;
     cursor: pointer;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     transition: 0.5s;
-    box-shadow: 2px 4px 9px #000000d4, -2px -4px 9px #ffffffb3;
+    box-shadow: 2px 4px 9px #000000d4, -2px -4px 9px #e5e5cc;
 }
 
 #submit-an:hover{
-    background-color: white;
-    border: #55552b 1px solid;
-    color: #55552b;
+    color: green;
+    box-shadow: none;
 }
 
 @media (max-width: 700px) {
