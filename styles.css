@@ -716,36 +716,6 @@ iframe {
     border: 2px solid #55552b;
 }
 
-input[type="checkbox"].hide-input-aj:checked + .rabatt-aj {
-    min-height: 0;
-    height: 0;
-    opacity: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-input.hide-input-aj {
-    position: absolute;
-    left: -999em;
-}
-
-label.knapp-aj {
-    text-align: center;
-    display: inline-block;
-    cursor: pointer;
-    padding: 0.5em 1em;
-    background: #e5e5cc;
-    border-radius: 30px;
-    user-select: none;
-    box-shadow: 2px 4px 9px #55552b, -2px -4px 9px #e5e5cc;
-    font-weight: 700;
-  }
-
-  label.knapp-aj:hover {
-    box-shadow: none;
-    transition: 0.5s;
-  }
-  
 /*slut på förmåner till medlemssektion/Anton*/
 
 /* START | Event och evenemang (events.html) Olle */
