@@ -633,11 +633,11 @@ iframe {
 
 
 
-    /* Grundstil för kroppen */
 
 
 
-/* Huvudinnehåll */
+
+/* Medlemskapstyper style Ali*/
 #membership {
     width:70%;
     margin: 20px auto;
@@ -649,14 +649,11 @@ iframe {
     color: #55552b;
 }
 
-    
-
-/* Stil för medlemskapstyper */
 
 .membership-types {
     display: grid;
     color: #55552b;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin-top: 20px; 
 }
@@ -672,7 +669,7 @@ iframe {
 }
 
 .membership-type:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -683,6 +680,7 @@ iframe {
 .membership-type p, .membership-type ul {
     color: #55552b;
 }
+/*Slut medlemskap Ali*/
         
    
 
