@@ -755,7 +755,7 @@ iframe {
 .event-weekdays-of {
     width: 100%;
     background-color: #bbbb77;
-    font-size: 120%;
+    font-size: 80%;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -784,6 +784,7 @@ iframe {
     margin: 0;
     padding: 0;
     display: flex;
+    font-size: 69%;
 }
 
 .event-days-of li{    
