@@ -1642,3 +1642,28 @@ cursor: default;
 }
 
 /* Slut på media för medlemssektion och event*/
+
+.fa-money-bill-transfer{
+color: green;
+padding: 5px
+}
+.fa-wallet{
+color: darkblue;
+padding: 5px;
+}
+.fa-file-invoice-dollar{
+color: black;
+padding: 5px;
+}
+.fa-cc-visa{
+color: darkblue;
+padding: 5px;
+}
+.fa-building-columns{
+color: darkgray;
+padding: 5px;
+}
+.fa-calendar-days{
+color: black;
+padding: 5px;
+}
