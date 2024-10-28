@@ -11,8 +11,8 @@
     <div id="top"></div>
     <header>
 
-        <a href="index.html"><img src= "Centar.gif" alt="logga" class="logo">
-        <div class="navbar">
+        <a href="index.html"><img src= "Centar.gif" alt="logga" class="logo"></a>
+        <nav class="navbar">
             <a href="index.html">Startsida</a>
             <a href="om-oss.html">Om oss</a>
             <a href="Boka.html">Boka</a>
@@ -26,7 +26,7 @@
                     <a href="shop.html">Shop</a>
                 </div>
             </div>
-        </div>
+        </nav>
         <!-- Knapp för logga in-->
         <div>
             <button class="buttonLogInLS" onclick="location.href='medlemssektion.html'">Logga in</button>
@@ -44,7 +44,7 @@
                     <ul class="menu">
                         <li><a href="index.html"><i class="fa-solid fa-house"></i>Startsida</a></li>
                         <li><a href="om-oss.html"><i class="fa-solid fa-circle-user"></i>Om oss</a></li>
-                        <li><a href="boka.html"class="aktiv-link"><i class="fa-solid fa-circle-check"></i>Boka</a></li>
+                        <li><a href="boka.html" class="aktiv-link"><i class="fa-solid fa-circle-check"></i>Boka</a></li>
                         <li><a href="events.html"><i class="fa-solid fa-calendar-days"></i>Tävlingar och Evenemang</a></li>
                         <li><a href="medlemssektion.html"><i class="fa-solid fa-user"></i>Medlem</a></li>
                         <li><a href="kontakt.html"><i class="fa-regular fa-address-card"></i>Kontakta oss</a></li>
@@ -56,14 +56,16 @@
                 <!--Hamburgermeny slut-->
 
     </header>
-
+    
+    <main>
+        <h1> Boka</h1>
 
     <!--Greenfee och bokning - Sandra-->
-    <div class="bokning-content-st">
+    <section class="bokning-content-st">
         <h3 class="h3greenfee-st">Greenfee - Kom och spela på vår mästerskapsbana</h3>
         <p>Välkommen att spela på Centar Golfklubbs natursköna banor. Nedan finner du våra aktuella greenfee-priser samt
             information om bokningsregler.</p>
-        <div class="bokning1-st">
+        <section class="bokning1-st">
             <h4>Vardagar (måndag-fredag)</h4>
             <ul>
                 <li>Senior: 500kr</li>
@@ -71,12 +73,12 @@
                 <li>Junior (upp till 18år): 250kr</li>
             </ul>
             <p>Medlemmar i sammarbetsklubbar erhåller 20% rabatt på ordinarie Greenfee-priser.</p>
-        </div>
+        </section>
 
         <h3>Bokningsregler och riktlinjer</h3>
         <p>Vi vill att alla våra gäster ska få en smidig och trevlig upplevelse på vår klubb. Läs igenom bokningsregler
             noggrant innan du bokar din starttid.</p>
-        <div class="bokning2-st">
+        <section class="bokning2-st">
             <h4>Bokning av starttider</h4>
             <ul>
                 <li>Tidsbokning krävs och kan göras upp till 14 dagar i förväg.</li>
@@ -91,8 +93,8 @@
                 <li>Vid sen avbokning debiteras hela beloppet.</li>
                 <li>Dyker du inte upp utan avbokning debiteras hela beloppet.</li>
             </ul>
-        </div>
-    </div>
+        </section>
+    </section>
     <!--Greenfee och bokning slut-->
 
 
@@ -206,6 +208,7 @@
             alert("Din bokning har registrerats!");
         }
     </script>
+    </main>
 
 
 
