@@ -675,6 +675,13 @@ iframe {
 .membership-type p, .membership-type ul {
     color: #55552b;
 }
+@media (max-width: 768px) {
+.membership-types{
+grid-template-columns: 1fr;
+width: 90%;
+margin: 0 auto;
+}
+}
 /*Slut medlemskap Ali*/
         
 
