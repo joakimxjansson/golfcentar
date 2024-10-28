@@ -450,6 +450,30 @@ iframe {
     box-shadow: none;
 }
 
+.h2-an {
+    margin-bottom: -3px;
+}
+
+            /*Fet text och margin*/
+            
+.bold-sh-an, .bold-re-an, .bold-ba-an, .bold-va-an, .bold-te-an, .bold-ep-an {
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+.bold-sh-an, .bold-re-an, .bold-ba-an {
+    margin-top: 20px;
+}
+
+.bold-te-an, .bold-ep-an {
+    display: inline;
+}
+
+.bold-va-an {
+    margin-bottom: -10px;
+}
+
 @media (max-width: 700px) {
 
     .kontakt-info {
