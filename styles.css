@@ -1174,6 +1174,9 @@ margin: 0 auto;
 
 /*shoppen - Sandra*/
 
+.bolded {
+    font-weight: bold;
+}
 .shopcontainer-st {
     display: flex;
     flex-direction: column;
@@ -1187,7 +1190,7 @@ margin: 0 auto;
 
 .shopbox1-st {
     background-color: #e5e5cc;
-     border: 0.5rem solid #55552b;
+    border: 0.5rem solid #55552b;
     padding: 1.5rem;
     border-radius: 10px;
     text-align: center;
