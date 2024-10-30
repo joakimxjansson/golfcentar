@@ -6,102 +6,109 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #e5e5cc;;
+    background-color: #e5e5cc;
+    ;
 
 }
+
 header {
     display: flex;
     flex-direction: row;
     justify-items: space-between;
     align-items: center;
     justify-content: center;
-    background-color: #55552b; 
+    background-color: #55552b;
 }
-.logo { 
+
+.logo {
     width: 200px;
-margin-right: auto;
+    margin-right: auto;
 
 
 }
 
 /* Placering och design /Linnea */
 .navbar {
-display: flex;
-justify-content: center;
-align-items: start;
-background-color: #e5e5cc;
-padding: 1rem;
-width: 100%;
-border: 0%;
-margin-right: auto;
-flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: #e5e5cc;
+    padding: 1rem;
+    width: 100%;
+    border: 0%;
+    margin-right: auto;
+    flex-wrap: wrap;
 }
 
 
 /* Text /Linnea */
-.navbar a,  .navbar .dropdown{
-color: #55552b;
-text-decoration: none;
-padding: 0.5rem 1rem;
-font-weight: bold;
+.navbar a,
+.navbar .dropdown {
+    color: #55552b;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
 }
 
 /* Ändrar färg när man hoovrar över länken /Linnea */
 .navbar a:hover {
-background-color: #bbbb77;
+    background-color: #bbbb77;
 }
 
 /* Dropdown meny styling */
 .dropdown {
-position: relative;
-display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .dropdown-content {
-display: none;
-position: absolute;
-background-color: #f9f9f9;
-min-width: 160px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 .dropdown-content a {
-color: #55552b;
-padding: 12px 16px;
-text-decoration: none;
-display: block;
+    color: #55552b;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
 .dropdown-content a:hover {
-background-color: #bbbb77;
+    background-color: #bbbb77;
 }
 
 .dropdown:hover .dropdown-content {
-display: block;
+    display: block;
 }
 
 .dropdown:hover .dropbtn {
-background-color: #bbbb77;
+    background-color: #bbbb77;
 }
 
 
 /* LOG IN KNAPP /Linnea*/
 .buttonLogInLS {
-border: none;
-background-color: #e5e5cc;
-padding: 15px 25px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-margin: 4px 50px;
-cursor: pointer;
-color: #55552b;
+    border: none;
+    background-color: #e5e5cc;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 50px;
+    cursor: pointer;
+    color: #55552b;
 }
+
 .buttonLogInLS:hover {
-background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
+    background-color: #bbbb77;
+    /* Ändra färgen när man hovrar över knappen */
 }
+
 /*Responsivitet knapp */
 @media (max-width: 768px) {
     .buttonLogInLS {
@@ -126,6 +133,7 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
 .hamburgermeny {
     display: none;
 }
+
 /* Slut på hamburgernmeny resten på media/*
 
 /*styling landingpage/Sandra*/
@@ -140,25 +148,25 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
 }
 
 .landingp-container {
-    
+
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
     margin: 0;
-    padding: 1rem; 
+    padding: 1rem;
 }
 
 
 
 .btn-img {
     position: relative;
-    
+
 }
-  
-    
-.landingp-btn{ 
+
+
+.landingp-btn {
     position: absolute;
     padding: 10px 30px;
     left: 50%;
@@ -174,8 +182,9 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
     transition: 0.5s;
     cursor: pointer;
 
-    
+
 }
+
 .landingp-btn:hover {
     background-color: #bbbb77;
     box-shadow: none;
@@ -198,10 +207,10 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
     height: auto;
     padding: 2rem;
     font-size: 1.2rem;
-    text-align: center; 
+    text-align: center;
     border-radius: 30px;
     border: 3px solid #55552b;
-    
+
 }
 
 .landingp-img {
@@ -228,7 +237,7 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
     padding-right: 1em;
     border-radius: 30px;
     color: #55552b;
-    
+
 }
 
 #fname-aj {
@@ -265,12 +274,14 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
     cursor: pointer;
     transition: 0.5s;
     font-weight: 1000;
-    
+
 }
+
 #submit-aj:hover {
     box-shadow: none;
     color: green;
-    }
+}
+
 /* slut för Styling för nyhetsbrev-formulär*/
 
 /* Index main content box */
@@ -280,7 +291,7 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
     flex-direction: row;
     width: 100%;
     justify-content: center;
-    
+
     align-items: flex-start;
 }
 
@@ -292,7 +303,7 @@ background-color: #bbbb77; /* Ändra färgen när man hovrar över knappen */
     color: #55552b;
     border: 3px solid #55552b;
     border-radius: 30px;
-    background-color:#bbbb77;
+    background-color: #bbbb77;
     box-shadow: 0 4px 10px #ebebb1;
     margin: 10px 10px 10px 0px
 }
@@ -317,19 +328,19 @@ p.news-text {
     padding-right: 2.5em;
 }
 
-ul.news-list li{
+ul.news-list li {
     font-size: 75%;
 }
 
 img.news-image {
-    max-width: 50%;  
+    max-width: 50%;
     height: auto;
     border-radius: 25%;
     padding-top: 10px;
 }
 
 /* Footer content nedan*/
-footer{ 
+footer {
     background-color: #55552b;
     width: 100%;
     display: flex;
@@ -342,28 +353,33 @@ footer{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center; 
-   
-    
-    
+    justify-content: center;
+
+
+
 }
+
 .footercontent ul {
     display: flex;
     list-style: none;
 
-    
-    
+
+
 }
+
 .footercontent li {
     padding: 4%;
-    
+
 
 }
-footer a{ color: black;}
+
+footer a {
+    color: black;
+}
 
 
 
-                                    /*Kontakt Adam*/
+/*Kontakt Adam*/
 
 .kon {
     text-align: center;
@@ -373,15 +389,15 @@ footer a{ color: black;}
 
 .kontakt-container {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
 }
 
 .kontakt-info {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     gap: 10%;
-    width:70%; 
+    width: 70%;
     margin-bottom: 40px;
     color: #55552b;
 }
@@ -445,7 +461,7 @@ iframe {
     box-shadow: 2px 4px 9px #000000d4, -2px -4px 9px #e5e5cc;
 }
 
-#submit-an:hover{
+#submit-an:hover {
     color: green;
     box-shadow: none;
 }
@@ -454,19 +470,27 @@ iframe {
     margin-bottom: -3px;
 }
 
-            /*Fet text och margin*/
-            
-.bold-sh-an, .bold-re-an, .bold-ba-an, .bold-va-an, .bold-te-an, .bold-ep-an {
+/*Fet text och margin*/
+
+.bold-sh-an,
+.bold-re-an,
+.bold-ba-an,
+.bold-va-an,
+.bold-te-an,
+.bold-ep-an {
     font-weight: bold;
     margin-bottom: 2px;
     margin-top: 5px;
 }
 
-.bold-sh-an, .bold-re-an, .bold-ba-an {
+.bold-sh-an,
+.bold-re-an,
+.bold-ba-an {
     margin-top: 20px;
 }
 
-.bold-te-an, .bold-ep-an {
+.bold-te-an,
+.bold-ep-an {
     display: inline;
 }
 
@@ -480,15 +504,18 @@ iframe {
         flex-direction: column;
         align-items: center;
     }
+
     .kontakt-vanster {
         text-align: center;
         width: 100%;
     }
+
     .kontakt-hoger {
         margin-top: -16px;
         text-align: center;
         width: 100%;
     }
+
     .form-container-an {
         margin-bottom: 1rem;
         margin-top: 0rem;
@@ -497,12 +524,12 @@ iframe {
 
 @media (max-width: 910px) {
     .kontakt-info {
-        width:90%; 
+        width: 90%;
     }
 }
 
 
-                                    /*Kontakt Adam*/
+/*Kontakt Adam*/
 
 
 /*Boka - Rama*/
@@ -511,11 +538,11 @@ iframe {
 /* Box-sizing för att säkerställa att padding inte överskrider bredden */
 * {
     box-sizing: border-box;
-} 
+}
 
 /* Grundläggande stil för hela sidan */
 .Ra-page-style {
-    
+
     width: 100%;
     background-color: #e5e5cc;
     font-family: Arial, sans-serif;
@@ -536,12 +563,13 @@ iframe {
     width: 70%;
     /* max-width: 700px; Begränsar maxbredd för att det ska passa på alla skärmar */
     margin-bottom: 2em;
-    
+
     padding: 1em;
     background-color: #bbbb77;
     border-radius: 15px;
     border: 3px solid #55552b;
-    overflow-x: auto; /* Gör att innehållet kan skrollas horisontellt på små skärmar */
+    overflow-x: auto;
+    /* Gör att innehållet kan skrollas horisontellt på små skärmar */
 }
 
 /* Stil för inputfält (inklusive datumväljare) */
@@ -570,11 +598,14 @@ iframe {
     overflow-x: auto;
 }
 
-.Ra-table-style, .Ra-th-style, .Ra-td-style {
+.Ra-table-style,
+.Ra-th-style,
+.Ra-td-style {
     border: 1px solid #55552b;
 }
 
-.Ra-th-style, .Ra-td-style {
+.Ra-th-style,
+.Ra-td-style {
     padding: 10px;
     text-align: center;
 }
@@ -615,7 +646,7 @@ iframe {
 
 
 
-/*Boka- Rama */ 
+/*Boka- Rama */
 
 /*Greenfee och bokning - Sandra*/
 .h3greenfee-st {
@@ -652,13 +683,14 @@ iframe {
     padding-bottom: 3px;
     border-radius: 10px;
 }
+
 /*Greenfee och bokning SLUT - Sandra*/
 
 
 
 /* Medlemskapstyper style Ali*/
 #membership {
-    width:70%;
+    width: 70%;
     margin: 20px auto;
     padding: 20px;
     background-color: #bbbb77;
@@ -674,7 +706,7 @@ iframe {
     color: #55552b;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
 .membership-type {
@@ -696,18 +728,21 @@ iframe {
     color: #55552b;
 }
 
-.membership-type p, .membership-type ul {
+.membership-type p,
+.membership-type ul {
     color: #55552b;
 }
+
 @media (max-width: 768px) {
-.membership-types{
-grid-template-columns: 1fr;
-width: 90%;
-margin: 0 auto;
+    .membership-types {
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin: 0 auto;
+    }
 }
-}
+
 /*Slut medlemskap Ali*/
-        
+
 
 /*förmåner till medlemssektion/Anton*/
 .formaner-aj {
@@ -809,7 +844,7 @@ margin: 0 auto;
     font-size: 69%;
 }
 
-.event-days-of li{    
+.event-days-of li {
     width: 20%;
     min-height: 4rem;
     margin: 0;
@@ -823,7 +858,7 @@ margin: 0 auto;
     border-right: 1px solid #55552b;
 }
 
-.event-days-of li span{
+.event-days-of li span {
     display: block;
     background-color: rgba(0, 0, 0, 0.125);
     /* border-bottom: 1px solid rgba(0, 0, 0, 0.5); */
@@ -871,146 +906,158 @@ margin: 0 auto;
     height: auto;
     display: block;
     margin: 20px auto;
- }
- .ra-content {
-    max-width: 70%; /* Gör innehållet bredare */
+}
+
+.ra-content {
+    max-width: 70%;
+    /* Gör innehållet bredare */
     margin: 20px auto;
     padding: 20px;
-    background-color: #bbbb77; /* Samma färg som i första designen */
+    background-color: #bbbb77;
+    /* Samma färg som i första designen */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: #55552b;
- }
- .ra-header {
+}
+
+.ra-header {
     font-size: 1.8em;
     color: #55552b;
-    background-color: #e5e5cc; /* Ljusare bakgrund för rubriker */
+    background-color: #e5e5cc;
+    /* Ljusare bakgrund för rubriker */
     padding: 15px;
     border-radius: 5px;
     margin-bottom: 15px;
- }
- .ra-paragraph {
+}
+
+.ra-paragraph {
     font-size: 1.2em;
     color: #55552b;
     margin-bottom: 15px;
     padding: 10px;
     background-color: #e5e5cc;
     border-radius: 5px;
- }
- .ra-list {
+}
+
+.ra-list {
     list-style: none;
     padding-left: 0;
- }
- .ra-list li {
-    background: #e5e5cc; /* Ljus bakgrund för listor */
+}
+
+.ra-list li {
+    background: #e5e5cc;
+    /* Ljus bakgrund för listor */
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 5px;
     color: #55552b;
- }
- .ra-list li strong {
+}
+
+.ra-list li strong {
     color: #44442a;
- }
- .ra-footer {
+}
+
+.ra-footer {
     text-align: center;
     padding: 20px 0;
     background-color: #55552b;
     color: white;
     margin-top: 30px;
     border-radius: 10px;
- }
- 
+}
 
- /*slut om oss-rama*/ 
+
+/*slut om oss-rama*/
 
 /*Historian start - Batool*/
 
-          .bodyBF {
-            margin: 0;
-            padding: 0;
-            background-color: #b0b07b;
-            color: white;
-        }
+.bodyBF {
+    margin: 0;
+    padding: 0;
+    background-color: #b0b07b;
+    color: white;
+}
 
-        .headerBF {
-            background-size: cover;
-            background-position: center;
-            height: 300px;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+.headerBF {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-        .sectionBF {
-            margin: 40px auto;
-            padding: 65px;
-            max-width: 1200px;
-            background-color: #bbbb77;
-            box-shadow: 0 6px 15px #ebebb1;
-            border-radius: 10px;
-            line-height: 1.8;
-            border: 3px solid #55552b;
-        }
+.sectionBF {
+    margin: 40px auto;
+    padding: 65px;
+    max-width: 1200px;
+    background-color: #bbbb77;
+    box-shadow: 0 6px 15px #ebebb1;
+    border-radius: 10px;
+    line-height: 1.8;
+    border: 3px solid #55552b;
+}
 
-        .h2BF {
-            color: #55552b;
-            font-size: 32px;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
+.h2BF {
+    color: #55552b;
+    font-size: 32px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
 
-        .hrBF {
-            width: 25%; 
-            margin: 0 auto; 
-            border: 1px solid #55552b; 
-        }
+.hrBF {
+    width: 25%;
+    margin: 0 auto;
+    border: 1px solid #55552b;
+}
 
-        .pBF {
-            margin: 20px 0;
-            font-size: 18px;
-            color: #55552b;
-        }
+.pBF {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #55552b;
+}
 
-        .ulBF {
-            list-style: square;
-            margin: 20px 0;
-            padding-left: 20px;
-        }
+.ulBF {
+    list-style: square;
+    margin: 20px 0;
+    padding-left: 20px;
+}
 
-        .ulBF li {
-            margin: 10px 0;
-            font-size: 18px;
-            color: #55552b;
-        }
+.ulBF li {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #55552b;
+}
 
-        .history-imageBF {
-            margin-top: 30px;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap; 
-        }
-        
-        .image-itemBF {
-            text-align: center;
-            flex: 1 1 300px; 
-        }
-        
-        .image-itemBF img {
-            width: 100%; 
-            max-width: 500px; 
-            height: auto; 
-            border-radius: 10px;
-            box-shadow: 0 4px 10px #ebebb1;
-        }
-        
-        .image-itemBF h3 {
-            margin-top: 10px;
-            font-size: 20px;
-            color: #55552b;
-        }
+.history-imageBF {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image-itemBF {
+    text-align: center;
+    flex: 1 1 300px;
+}
+
+.image-itemBF img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #ebebb1;
+}
+
+.image-itemBF h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #55552b;
+}
+
 /*Historian slut - Batool*/
 
 /*Inloggningsförmuläret start - Batool*/
@@ -1019,7 +1066,7 @@ margin: 0 auto;
     padding: 40px;
     width: 70%;
     max-width: 500px;
-    background-color: rgba(187, 187, 119, 0.9); 
+    background-color: rgba(187, 187, 119, 0.9);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
     border-radius: 20px;
     text-align: center;
@@ -1035,10 +1082,10 @@ margin: 0 auto;
     padding: 15px;
     margin: 15px 0;
     border: 1px solid #ccc;
-    border-radius: 25px; 
+    border-radius: 25px;
     font-size: 18px;
     box-sizing: border-box;
-    transition: all 0.3s ease; 
+    transition: all 0.3s ease;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -1076,6 +1123,7 @@ margin: 0 auto;
 .aBF:hover {
     color: #222212;
 }
+
 /*Inloggningsförmuläret slut - Batool*/
 
 /*START Mat meny - Olle */
@@ -1092,12 +1140,10 @@ margin: 0 auto;
     height: 20px;
     width: 100%;
     background: rgb(82, 51, 23);
-    clip-path: polygon(
-        0 0,
-        100% 0,
-        calc(100% - 20px) 100%,
-        20px 100%
-    );
+    clip-path: polygon(0 0,
+            100% 0,
+            calc(100% - 20px) 100%,
+            20px 100%);
 }
 
 .board-bot-of {
@@ -1106,12 +1152,10 @@ margin: 0 auto;
     height: 20px;
     width: 100%;
     background: rgb(82, 51, 23);
-    clip-path: polygon(
-        20px 0,
-        calc(100% - 20px) 0,
-        100% 100%,
-        0 100%
-    );
+    clip-path: polygon(20px 0,
+            calc(100% - 20px) 0,
+            100% 100%,
+            0 100%);
 }
 
 .board-right-of {
@@ -1120,12 +1164,10 @@ margin: 0 auto;
     height: 100%;
     width: 20px;
     background: rgb(102, 60, 23);
-    clip-path: polygon(
-        0 20px,
-        100% 0,
-        100% 100%,
-        0 calc(100% - 20px)
-    );
+    clip-path: polygon(0 20px,
+            100% 0,
+            100% 100%,
+            0 calc(100% - 20px));
 }
 
 .board-left-of {
@@ -1134,12 +1176,10 @@ margin: 0 auto;
     height: 100%;
     width: 20px;
     background: rgb(102, 60, 23);
-    clip-path: polygon(
-        0 0,
-        100% 20px,
-        100% calc(100% - 20px),
-        0 100%
-    );
+    clip-path: polygon(0 0,
+            100% 20px,
+            100% calc(100% - 20px),
+            0 100%);
 }
 
 .menu-options-of {
@@ -1170,6 +1210,7 @@ margin: 0 auto;
 .menu-board-of ul:last-child {
     margin-bottom: 0.5rem;
 }
+
 /*SLUT Mat meny - Olle */
 
 /*shoppen - Sandra*/
@@ -1177,6 +1218,7 @@ margin: 0 auto;
 .bolded {
     font-weight: bold;
 }
+
 .shopcontainer-st {
     display: flex;
     flex-direction: column;
@@ -1213,6 +1255,7 @@ margin: 0 auto;
     padding: 1rem;
     border-radius: 10px;
 }
+
 .shopbox2-st {
     background-color: #e5e5cc;
     border: 0.5rem solid #bbbb77;
@@ -1248,6 +1291,7 @@ margin: 0 auto;
     border-radius: 10px;
     color: #55552b;
 }
+
 /*SLUT shoppen - Sandra*/
 
 
@@ -1304,62 +1348,65 @@ margin: 0 auto;
 .payment-methods ul li strong {
     color: #44442a;
 }
+
 /* Slut - Betalningsmetoder - Ali*/
 
 /* Öppettider start/ Batool*/
 
-       .opening-hours {
-            padding: 30px; 
-            width: 34%; 
-            /* margin: auto; */
-            max-width: 800px;
-            margin-right: auto;
-            background-color: rgba(187, 187, 119, 0.9);
-            border-radius: 20px;
-            text-align: center;
-            box-sizing: border-box;
-            border: 3px solid #55552b; 
-            /* margin-bottom: 20px; */
+.opening-hours {
+    padding: 30px;
+    width: 34%;
+    /* margin: auto; */
+    max-width: 800px;
+    margin-right: auto;
+    background-color: rgba(187, 187, 119, 0.9);
+    border-radius: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 3px solid #55552b;
+    /* margin-bottom: 20px; */
 
-        }
+}
 
-        .title {
-            color: #44442a;
-            font-size: 32px; 
-            margin-bottom: 20px; 
-        }
+.title {
+    color: #44442a;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
 
-        .description {
-            color: #44442a;
-            font-size: 20px; 
-            margin: 10px 0;
-        }
+.description {
+    color: #44442a;
+    font-size: 20px;
+    margin: 10px 0;
+}
 
-        .hours-table {
-            width: 100%;
-            margin-top: 20px;
-            border-collapse: collapse;
-        }
+.hours-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
 
-        .hours-table th, .hours-table td {
-            padding: 12px; 
-            text-align: left;
-            border: 1px solid #ccc;
-            background-color: #b0b07b;
-            color: #44442a;
-            border-radius: 5px;
-        }
+.hours-table th,
+.hours-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ccc;
+    background-color: #b0b07b;
+    color: #44442a;
+    border-radius: 5px;
+}
 
-        .hours-table th {
-            background-color: #44442a;
-            color: #b0b07b;
-        }
+.hours-table th {
+    background-color: #44442a;
+    color: #b0b07b;
+}
 
-        .note {
-            color: #44442a;
-            font-size: 18px; 
-            margin-top: 20px; 
-        }
+.note {
+    color: #44442a;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
 /* Öppettider slut/ Batool*/
 
 .shop-wrapper-aj {
@@ -1368,6 +1415,7 @@ margin: 0 auto;
     margin-top: 1em;
     margin-bottom: 1em;
 }
+
 /* Media queries för shopwrapper/anton */
 @media (max-width: 1300px) {
     .shop-wrapper-aj {
@@ -1375,13 +1423,15 @@ margin: 0 auto;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
     }
+
     .opening-hours {
         max-width: none;
         margin-right: 0;
         width: 70%;
     }
+
     .payment-methods {
         max-width: none;
         margin-bottom: 1em;
@@ -1390,13 +1440,16 @@ margin: 0 auto;
         width: 70%;
     }
 }
+
 @media (max-width: 768px) {
     .payment-methods {
         width: 90%;
     }
+
     .opening-hours {
         width: 90%;
     }
+
     .shopcontainer-st {
         width: 90%;
     }
@@ -1405,13 +1458,15 @@ margin: 0 auto;
 /* Media queries för mindre skärmar Rama */
 @media (max-width: 768px) {
     .Ra-container-style {
-        
+
         padding: 15px;
     }
+
     .Ra-input-style {
         font-size: 14px;
         padding: 8px;
     }
+
     .Ra-button-style {
         font-size: 14px;
         padding: 8px;
@@ -1419,7 +1474,7 @@ margin: 0 auto;
 
     .bokning-content-st {
         width: 90%;
-        
+
     }
 
     .Ra-container-style {
@@ -1429,65 +1484,67 @@ margin: 0 auto;
 }
 
 @media (max-width: 480px) {
-    
+
     .Ra-input-style {
         font-size: 12px;
         padding: 6px;
     }
+
     .Ra-button-style {
         font-size: 12px;
         padding: 6px;
     }
+
     .Ra-table-style {
         font-size: 12px;
     }
 
-} 
+}
 
 /*Media Querie för Landingpage - Sandra*/
 @media (max-width: 992px) {
-.landingp-container {
+    .landingp-container {
 
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 1rem; 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 1rem;
 
-}
+    }
 
-.landingp-box {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 80%;
+    .landingp-box {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 80%;
 
-    
-}
-    
-.landingp-img {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 100%;
-}
-    
 
-.index-content-of {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-}
+    }
 
-/* Index Nyheter och updateringar */
+    .landingp-img {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+    }
 
-.index-side-of {
-    max-width: 77%;
-    min-width: 200px;
-    margin-bottom: 1.5rem;
-    
-}
-    
+
+    .index-content-of {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    /* Index Nyheter och updateringar */
+
+    .index-side-of {
+        max-width: 77%;
+        min-width: 200px;
+        margin-bottom: 1.5rem;
+
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -1502,7 +1559,7 @@ margin: 0 auto;
         max-width: 90%;
         width: 90%;
     }
-        
+
     .landingp-img {
         margin: 1rem auto;
         padding: 0;
@@ -1514,12 +1571,13 @@ margin: 0 auto;
 
     .index-side-of {
         max-width: 90%;
-    }   
+    }
 }
+
 /*Media Querie för Landingpage SLUT- Sandra*/
 
 /* Media för hamburhermeny*/
-@media (max-width: 768px){
+@media (max-width: 768px) {
 
     header {
         display: flex;
@@ -1527,133 +1585,142 @@ margin: 0 auto;
         justify-content: center;
         flex-wrap: wrap;
     }
-    .navbar{ 
+
+    .navbar {
         display: none;
     }
 
-.hamburgermeny { 
-    display: flex;
-    justify-content: flex-end;
-    align-content: center;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    align-items: flex-end;
-    
-    
-    
-}
-.checkbox-toggle { 
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    opacity: 0;
-    z-index: 2;
-    cursor: pointer;
-    font-size: 50px;
-    margin-right:  30px;
-    margin-bottom: 30px;
-}
-
-.fa-bar-static, .fa-beat-fade{ 
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    font-size: 50px;
-    margin-right:  30px;
-    margin-bottom: 30px;
-    
-
-    
-}
+    .hamburgermeny {
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        align-items: flex-end;
 
 
-.fa-beat-fade { 
-    visibility: hidden;
 
+    }
+
+    .checkbox-toggle {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        opacity: 0;
+        z-index: 2;
+        cursor: pointer;
+        font-size: 50px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .fa-bar-static,
+    .fa-beat-fade {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+
+
+
+    }
+
+
+    .fa-beat-fade {
+        visibility: hidden;
+
+    }
+
+    .hamburgermeny:hover .fa-bar-static {
+        visibility: hidden;
+
+    }
+
+    .hamburgermeny:hover .fa-beat-fade {
+        visibility: visible;
+
+    }
+
+    .menu {
+        visibility: hidden;
+        position: absolute;
+        top: -20px;
+        padding: 0;
+        text-align: center;
+        max-height: 0;
+        transition: max-height 0.3s linear;
+        opacity: 0;
+        list-style: none;
+
+    }
+
+    .checkbox-toggle {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+    }
+
+    #menu-toggle:checked~.menu {
+        visibility: visible;
+        position: absolute;
+        max-height: 330px;
+        opacity: 1;
+        overflow: hidden;
+        text-decoration: none;
+        background-color: #e5e5cc;
+        width: 100%;
+        z-index: 2;
+
+
+    }
+
+    .menu ul {
+
+        margin: 0;
+        padding: 0;
+
+
+
+    }
+
+    .menu ul li {
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+        text-decoration: none;
+        list-style-type: none;
+
+
+
+
+    }
+
+    .menu li a {
+
+        display: block;
+        text-decoration: none;
+        color: #000000;
+        padding: 10px;
+        border: 1px solid black;
+
+
+
+
+
+    }
+
+    .menu li :hover {
+        background-color: #55552b;
+    }
+
+    .aktiv-link {
+        background-color: #55552b;
+        cursor: default;
+    }
 }
 
-.hamburgermeny:hover .fa-bar-static {
-    visibility: hidden;
-    
-}
-
-.hamburgermeny:hover .fa-beat-fade {
-    visibility: visible;
-    
-}
-.menu { 
-    visibility: hidden;
-    position: absolute;
-    top: -20px;
-    padding: 0;
-    text-align: center;
-    max-height: 0;
-    transition: max-height 0.3s linear;
-    opacity: 0;
-    list-style: none;
-    
-}
-.checkbox-toggle { 
-    position: absolute;
-    width: 50px;
-    height: 50px;
-}
-#menu-toggle:checked ~ .menu { 
-    visibility: visible;
-    position: absolute;
-    max-height: 330px;      
-    opacity: 1;
-    overflow: hidden;
-    text-decoration: none; 
-    background-color: #e5e5cc;
-    width: 100%;
-    z-index: 2;
-    
-    
-}
-
-.menu ul {
-    
-    margin: 0;
-    padding: 0;
-
-    
-    
-}
-
-.menu ul li {
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-    text-decoration: none; 
-    list-style-type: none; 
-    
-    
-
-    
-}
-
-.menu li a {
-
-    display: block;
-    text-decoration: none;
-    color: #000000;
-    padding: 10px;
-    border: 1px solid black; 
-
-    
-    
-    
-    
-}
-.menu li :hover { 
-    background-color: #55552b;
-}
-.aktiv-link { 
-    background-color: #55552b;
-cursor: default;
-}
-}
 /* Slut på media för hamburgermeny/*
 
 /* media för medlemssektion och event/ Anton*/
@@ -1665,6 +1732,7 @@ cursor: default;
     .formaner-aj {
         width: 90%;
     }
+
     .contest-sign-up-aj {
         width: 100%;
     }
@@ -1679,28 +1747,34 @@ cursor: default;
 
 /*Style på ikonerna Ali*/
 
-.fa-money-bill-transfer{
-color: green;
-padding: 5px
+.fa-money-bill-transfer {
+    color: green;
+    padding: 5px
 }
-.fa-wallet{
-color: darkblue;
-padding: 5px;
+
+.fa-wallet {
+    color: darkblue;
+    padding: 5px;
 }
-.fa-file-invoice-dollar{
-color: black;
-padding: 5px;
+
+.fa-file-invoice-dollar {
+    color: black;
+    padding: 5px;
 }
-.fa-cc-visa{
-color: darkblue;
-padding: 5px;
+
+.fa-cc-visa {
+    color: darkblue;
+    padding: 5px;
 }
-.fa-building-columns{
-color: darkgray;
-padding: 5px;
+
+.fa-building-columns {
+    color: darkgray;
+    padding: 5px;
 }
-.fa-calendar-days{
-color: black;
-padding: 5px;
+
+.fa-calendar-days {
+    color: black;
+    padding: 5px;
 }
+
 /*Style slut */
