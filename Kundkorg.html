@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kundkorg</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="index-body">
+    <div id="top"></div>
+    <header>
+
+        <a href="index.html"><img src="Centar.gif" alt="logga" class="logo"></a>
+        <nav class="navbar">
+            <a href="index.html">Startsida</a>
+            <a href="om-oss.html">Om oss</a>
+            <a href="Boka.html">Boka</a>
+            <a href="events.html">Tävlingar och evenemang</a>
+            <a href="medlemssektion.html">Medlem</a>
+            <a href="kontakt.html">Kontakta oss</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Restaurang och shop</a>
+                <div class="dropdown-content">
+                    <a href="restaurang.html">Restaurang</a>
+                    <a href="shop.html">Shop</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Knapp för logga in-->
+        <div>
+            <button class="buttonLogInLS" onclick="location.href='medlemssektion.html'">Logga in</button>
+        </div>
+        <!-- slut-->
+        <!--Hamburgermeny start-->
+        <nav class="hamburgermeny">
+
+            <input type="checkbox" id="menu-toggle" class="checkbox-toggle">
+            <label for="menu-toggle" class="menu-button-container">
+            </label>
+            <i class="fa-solid fa-bars fa-bar-static"></i>
+            <i class="fa-solid fa-bars fa-beat-fade"></i>
+
+            <ul class="menu">
+                <li><a href="index.html"><i class="fa-solid fa-house"></i>Startsida</a></li>
+                <li><a href="om-oss.html"><i class="fa-solid fa-circle-user"></i>Om oss</a></li>
+                <li><a href="boka.html"><i class="fa-solid fa-circle-check"></i>Boka</a></li>
+                <li><a href="events.html"><i class="fa-solid fa-calendar-days"></i>Tävlingar och Evenemang</a></li>
+                <li><a href="medlemssektion.html"><i class="fa-solid fa-user"></i>Medlem</a></li>
+                <li><a href="kontakt.html" class="aktiv-link"><i class="fa-regular fa-address-card"></i>Kontakta oss</a>
+                </li>
+                <li><a href="restaurang.html"><i class="fa-solid fa-utensils"></i>Restaurang</a></li>
+                <li><a href="shop.html"><i class="fa-solid fa-shop"></i>Shop</a></li>
+            </ul>
+
+        </nav>
+        <!--Hamburgermeny slut-->
+
+    </header>
+    <main class="kundkorg-main">
+        <div class="kundkorg-container">
+            <div class="kundkorg-kundkorg">
+                <h1 class="kundkorg-rubrik">
+                    Du har ("antal" artikel/artiklar) i varukorgen
+                </h1>
+                <div class="kundkorg-varor">
+                    <span>Din varukorg är tom.</span>
+                </div>
+            </div>
+            <div class="kundkorg-kostnad">
+                <p>Pris: </p>
+                <p>Frakt: </p>
+                <p>Totalkostnad: </p>
+                <button class="kundkorg-knapp">Till kassa</button>
+            </div>
+        </div>
+    </main>
+    <!-- Footer börjar nedan-->
+    <footer>
+        <nav class="footercontent">
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="om-oss.html">Om oss</a></li>
+                <li><a href="villkor.html">Användarvillkor</a></li>
+
+
+            </ul>
+
+        </nav>
+        <a href="#top">Tillbaka till toppen</a>
+    </footer>
+    <script src="https://kit.fontawesome.com/acf33f1b0e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
